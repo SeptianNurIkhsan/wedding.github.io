@@ -1,0 +1,33 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1rem;
+}
+
+.hero h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
+}
+
+.hero h4 {
+  font-size: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
