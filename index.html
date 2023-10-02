@@ -6,6 +6,8 @@
     <!-- start styling font via google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- menghubungkan dengan file css -->
+    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
     <!-- end styling font -->
 
@@ -14,28 +16,33 @@
     <!-- end judul undangan -->
   </head>
 
-  <!-- start body dan styling -->
-  <body style="color: whitesmoke; min-height: 100vh; margin: 0; padding: 0; justify-content: center; font-family: 'Work Sans', sans-serif">
+  <!-- start body -->
+  <body>
     <!-- start cover -->
-    <section id="cover" class="cover" style="background-color: #213759; min-height: 100vh; padding: 0; margin: auto; text-align: center; display: flex; justify-content: center; align-items: center; line-height: 1rem">
+    <section id="cover" class="cover">
       <div class="container">
         <h3>Kepada Bapak/Ibu/Saudara/i,</h3>
-        <h1 style="font-family: 'Sacramento', cursive; font-size: 6rem; color: goldenrod">Mahardika & Larasati</h1>
+        <h1>Mahardika & Larasati</h1>
         <h3>Akan melangsungkan resepsi pernikahan pada :</h3>
-        <a style="color: #91add9" href="#agenda">Lihat Undangan</a>
+        <!-- untuk tombol ke agenda -->
+        <a href="#agenda">Lihat Undangan</a>
       </div>
     </section>
     <!-- end cover -->
 
-    <!-- Start Agenda dan styling-->
-    <section id="agenda" class="agenda" style="background-color: #91add9; min-height: 100vh; padding: 0; margin: auto; text-align: center; display: flex; justify-content: center; align-items: center; line-height: 1rem">
-      <div class="container" style="font-family: 'Sacramento'; font-size: 30px">
-        <h3>Hari, Tanggal : 1 Januari 2024</h3>
-        <h3>Tempat : Gedung Balai Prajurit Kodam Brawijaya</h3>
-        <h3>Waktu : 09.00 - 17.00 WIB</h3>
-        <a style="color: #213759" href="#denah">Lihat Denah</a>
+    <!-- start agenda -->
+    <section id="agenda" class="agenda">
+      <class="container">
+        <h3>Hari, Tanggal</h3>
+        <h2> : 1 Januari 2024</h2>
+        <h3>Tempat</h3>
+        <h2> : Graha Unesa</h2>
+        <h3>Waktu</h3>
+        <h2> : 09.00 - 17.00 WIB</h2>
+        <!-- denah tempat acara -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.463338267288!2d112.72065657460486!3d-7.301726771780297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb84404681eb%3A0x2154fd3083ee873f!2sGedung%20Balai%20Prajurit%20Kodam%20Brawijaya!5e0!3m2!1sid!2sid!4v1696233508535!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
-    <!-- End Agenda -->
+    <!-- end agenda -->
   </body>
 </html>

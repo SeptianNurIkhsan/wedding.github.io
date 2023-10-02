@@ -7,9 +7,17 @@ body {
   box-sizing: border-box;
 }
 
-.hero {
+.cover {
+  background: url(backgroundHome.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cover {
   min-height: 100vh;
-  background-color: #0a0a0a;
+  color: seashell;
   padding: 0;
   margin: auto;
   text-align: center;
@@ -19,15 +27,39 @@ body {
   line-height: 1rem;
 }
 
-.hero h1 {
+.cover h1 {
   font-family: "Sacramento", cursive;
   font-size: 6rem;
 }
 
-.hero h4 {
+.cover h3 {
   font-size: 1.5rem;
 }
 
-.hero p {
-  font-size: 1.5rem;
+a {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: cornflowerblue;
+  color: white;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin-top: 10;
+  text-decoration: none;
+}
+a:hover,
+button:hover {
+  opacity: 0.9;
+}
+
+.agenda {
+  min-height: 100vh;
+  background-color: #0a0a00;
+  color: wheat;
+  padding: 0;
+  margin: auto;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  line-height: 1rem;
 }
