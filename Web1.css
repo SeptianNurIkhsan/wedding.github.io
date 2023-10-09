@@ -1,0 +1,56 @@
+ /* CSS untuk body, mengatur latar belakang */
+ body { /* Agar gambar latar belakang mengisi seluruh layar */
+    background-position: center; /* Menyusun gambar latar belakang ke tengah */
+    font-family: Arial, sans-serif; /* Memilih jenis font untuk teks */
+    color: #fff; /* Warna teks menjadi putih */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* CSS untuk kontainer yang akan mengatur teks ke tengah */
+.container1 {
+    padding: 0;
+    margin: 0;
+    background-image: url('kaesang & erina1.jpg');
+    background-size: cover; /* Ganti 'gambar-orang.jpg' dengan URL atau path ke gambar latar belakang Anda */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CSS untuk kontainer yang akan mengatur teks ke tengah */
+.container {
+    padding: 0;
+    margin: 0;
+    background-image: url('Kaesang & erina 2.jpeg');
+    background-size: cover; /* Ganti 'gambar-orang.jpg' dengan URL atau path ke gambar latar belakang Anda */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CSS untuk kontainer yang akan mengatur teks ke tengah */
+.container3 {
+    padding: 0;
+    margin: 0;
+    background-image: url('kaesang & erina3.png');
+    background-size: cover; /* Ganti 'gambar-orang.jpg' dengan URL atau path ke gambar latar belakang Anda */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CSS untuk teks */
+.teks {
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang transparan hitam */
+    padding: 20px;
+    border-radius: 10px; /* Sudut sudut elemen */
+    text-align: center; /* Teks di tengah */
+}
