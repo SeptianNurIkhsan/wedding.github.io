@@ -29,7 +29,7 @@ body {
 
 .cover h1 {
   font-family: "Sacramento", cursive;
-  font-size: 0px;
+  font-size: 100px;
 }
 
 * {
@@ -196,11 +196,19 @@ nav ul i {
 }
 
 #galeri .slideshow {
+  background-image: url(bg-10.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+img {
+  align-items: center;
+  width: 700px;
+  height: 600px;
+  padding: 15px;
 }
 
 /* Slideshow container */
@@ -297,27 +305,48 @@ nav ul i {
 }
 
 #agenda {
+  height: 100vh;
+  background-color: antiquewhite;
   font-family: "Work Sans", sans-serif;
   font-size: 30px;
-  color: #0a0a0a;
+  color: antiquewhite;
   display: flex;
   flex: 1;
 }
 
 .acara {
   flex: 1;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  background-color: antiquewhite;
-  padding: 100px;
+}
+
+.desc {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
+  width: 90%;
+  padding: 150px 0 150px 0;
+  border-radius: 24px;
 }
 
 .denah {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  background-color: antiquewhite;
-  padding: 20px;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.maps {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
+  width: 80%;
+  padding: 10px 0 10px 0;
+
+  border-radius: 24px;
 }
 
 .acara p {
@@ -382,13 +411,6 @@ body {
   text-align: center; /* Teks di tengah */
 }
 
-img {
-  align-items: center;
-  width: 400px;
-  height: 500px;
-  padding: 15px;
-}
-
 #video #prewedding {
   background-color: whitesmoke;
   min-height: 100vh;
@@ -447,24 +469,26 @@ img {
 }
 
 #ucapan .komen {
-  width: 70%;
-  height: 100%;
+  width: 60%;
+  height: 80%;
   background-image: url(bg-5.jpg);
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  border-radius: 40% 40% 0 0;
+  border-radius: 20% 20% 20% 20%;
   padding: 4em;
   margin-top: 2em;
 }
 
 #ucapan .komen h1 {
-  font-size: 4em;
+  color: #0a0a0a;
+  font-size: 5em;
   margin-top: 0;
 }
 
 #ucapan .doa {
+  color: #0a0a0a;
   margin-top: 3em;
 }
 
@@ -496,7 +520,7 @@ textarea,
 button,
 input {
   width: 100%;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 #ucapan h3 {
