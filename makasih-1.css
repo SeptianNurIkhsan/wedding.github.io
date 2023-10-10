@@ -1,0 +1,46 @@
+#terimakasih {
+    background-image: url(bgkayu.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.imbal {
+    margin-top: 1em;
+    background-color: azure;
+    opacity: 65%;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    transform: translateY(15%);
+    border-radius: 12%;
+    
+
+}
+ 
+.imbal h1 {
+
+font-size: 44px;
+font-family:sans-serif
+
+}
+
+.tekan {
+    background-color:azure;
+    opacity: 70%;
+    border: none;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 6em;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+   
