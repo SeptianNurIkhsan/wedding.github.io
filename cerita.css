@@ -1,0 +1,152 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Styling the area of the slides */
+    #slideshow {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    }
+    
+    /* Style each of the sides 
+    with a fixed width and height */
+    .slide {
+    float: left;
+    height: 100vh;
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /* Add animation to the slides */
+    .slide-wrapper {
+    
+    /* Calculate the total width on the
+    basis of number of slides */
+
+    width: calc(100% * 3);
+    
+    /* Specify the animation with the
+    duration and speed */
+    animation: slide 15s ease infinite;
+    }
+    
+    /* Set the background color
+    of each of the slides */
+    .slide:nth-child(1) {
+    background-image: url(kaesangerina4.png);
+    z-index: 0;
+    color: bisque;
+    }
+    
+    .slide:nth-child(2) {
+    background: url(Kaesang\ &\ erina\ 2.jpeg);
+    color:bisque;
+    background-size: cover;
+    }
+    
+    .slide:nth-child(3) {
+    background: url(kaesang\ &\ erina3.png);
+    color: bisque;
+    background-size: cover;
+    } 
+
+    .teks {
+        background-color: rgba(0, 0, 0, 0.5); /* Latar belakang transparan hitam */
+        padding: 20px;
+        border-radius: 10px; /* Sudut sudut elemen */
+        text-align: center; /* Teks di tengah */
+    }
+    /* Define the animation 
+    for the slideshow */
+    @keyframes slide {
+    
+    /* Calculate the margin-left for 
+    each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    
+    40% {
+        margin-left: calc(-100% * 1);
+    }
+    
+    60% {
+        margin-left: calc(-100% * 2);
+    }
+    
+    }
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            background-image: url(bg\ wood.jpg);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            min-width: 400px;
+            margin: 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            padding: 0px 24px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        label.radio-label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
