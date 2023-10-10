@@ -29,7 +29,7 @@ body {
 
 .cover h1 {
   font-family: "Sacramento", cursive;
-  font-size: 0px;
+  font-size: 100px;
 }
 
 * {
@@ -309,8 +309,12 @@ img {
 
 #agenda {
   height: 100vh;
+<<<<<<< HEAD
   background-image: url(denah.jpg);
   background-size: cover;
+=======
+  background-color: antiquewhite;
+>>>>>>> aefb5e4bfe247fb7663f8c501fa1e4f4a31cc1ba
   font-family: "Work Sans", sans-serif;
   font-size: 30px;
   color: antiquewhite;
@@ -413,13 +417,6 @@ body {
   padding: 20px;
   border-radius: 10px; /* Sudut sudut elemen */
   text-align: center; /* Teks di tengah */
-}
-
-img {
-  align-items: center;
-  width: 400px;
-  height: 500px;
-  padding: 15px;
 }
 
 #video #prewedding {

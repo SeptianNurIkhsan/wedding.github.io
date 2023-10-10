@@ -98,6 +98,7 @@
 
     <!------------------------- Galeri ----------------------------------->
     <section id="galeri">
+<<<<<<< HEAD
       <div class="slideshow">
               <div class="content-slide">
                   <div class="imgslide fade">
@@ -196,12 +197,123 @@
           <div class="maps">
           <p>Akad Nikah</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.071323981621!2d110.39959227461209!3d-7.782262677216929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59c29f13d139%3A0x38cd9f2273ec106e!2sPendopo%20Agung%20Royal%20Ambarrukmo!5e0!3m2!1sid!2sid!4v1696898494664!5m2!1sid!2sid" 
+=======
+    <div class="slideshow">
+            <div class="content-slide">
+                <div class="imgslide fade">
+                    <div class="numberslide">1 / 5</div>
+                    <img src="foto-prewed-1.jpg" alt="1">
+                </div>
+                <div class="imgslide fade">
+                    <div class="numberslide">2 / 5</div>
+                    <img src="foto-prewed-2.jpg" alt="2">
+                </div>
+                <div class="imgslide fade">
+                    <div class="numberslide">3 / 5</div>
+                    <img src="foto-prewed-3.jpg" alt="3">
+                </div>
+                <div class="imgslide fade">
+                    <div class="numberslide">4 / 5</div>
+                    <img src="foto-prewed-4.jpg" alt="4">
+                </div>
+                <div class="imgslide fade">
+                    <div class="numberslide">5 / 5</div>
+                    <img src="foto-prewed-5.jpg" alt="5">
+                </div>
+
+                <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+                <a class="next" onClick="nextslide(1)">&#10095;</a> 
+            </div>
+
+            <div class="page">
+                <span class="dot" onClick="dotslide(1)"></span>
+                <span class="dot" onClick="dotslide(2)"></span>
+                <span class="dot" onClick="dotslide(3)"></span>
+                <span class="dot" onClick="dotslide(4)"></span>
+                <span class="dot" onClick="dotslide(5)"></span>
+            </div>
+
+        </div>
+
+        <script>
+            var slideIndex = 1;
+                showSlide(slideIndex);
+
+            function nextslide(n){
+                showSlide(slideIndex += n);
+            }
+
+            function dotslide(n){
+                showSlide(slideIndex = n);
+            }
+
+            function showSlide(n) {
+                var i;
+                var slides = document.getElementsByClassName("imgslide");
+                var dot = document.getElementsByClassName("dot");
+                
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                for (i = 0; i < slides.length; i++) {
+                    
+                    slides[i].style.display = "none";
+                }
+
+                for (i = 0; i < slides.length; i++) {
+                    
+                    dot[i].className = dot[i].className.replace(" active", "");
+                }
+
+                slides[slideIndex - 1].style.display = "block";
+
+                dot[slideIndex - 1].className += " active";             
+            }
+        </script>
+
+    
+
+    <!------------------------ AGENDA & DENAH----------------------------->
+    <body>
+    <section id="agenda">
+      <div class="acara">
+       <div class="desc">
+         <h4>Akad Nikah</h4>
+         <p>10 Desember 2022</p>
+         <p>Pendopo Royal Ambarrukmo, Yogyakarta</p>
+        <br>
+        <br>
+        <h4>Resepsi Pernikahan</h4>
+        <p>11 Desember 2022</p>
+        <p>Loji Gandrung, Surakarta</p>
+      </div>
+      </div>
+      <div class="denah">
+        <div class="maps">
+        <p>Akad Nikah</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.071323981621!2d110.39959227461209!3d-7.782262677216929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59c29f13d139%3A0x38cd9f2273ec106e!2sPendopo%20Agung%20Royal%20Ambarrukmo!5e0!3m2!1sid!2sid!4v1696898494664!5m2!1sid!2sid" 
+        width="500" 
+        height="200" 
+        style="border: 0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <br>
+        <br>
+        <p>Resepsi Pernikahan</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0728655658154!2d110.80692957460874!3d-7.567035074735412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1680a5555555%3A0x60135b3ead17d546!2sLoji%20Gandrung!5e0!3m2!1sid!2sid!4v1696898569517!5m2!1sid!2sid" 
+>>>>>>> aefb5e4bfe247fb7663f8c501fa1e4f4a31cc1ba
           width="500" 
           height="200" 
           style="border: 0;" 
           allowfullscreen="" 
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
+<<<<<<< HEAD
           </iframe>
           <br>
           <br>
@@ -218,6 +330,14 @@
         </div>
       </section>
       </body>
+=======
+        </iframe>
+        </div>
+      </div>
+    </section>
+    </body>
+
+>>>>>>> aefb5e4bfe247fb7663f8c501fa1e4f4a31cc1ba
     <!-------------------------VIDEO YOUTUBE----------------------------->
     <section id="video">
       <div id="prewedding">
@@ -316,12 +436,6 @@
           </form>
         </div>
       </div>
-    </section>
-
-    <!------------------------Footer----------------------------------------------------->
-    <footer>
-      <p>Presented by</p>
-      <p></p>
-    </footer>
+    </section> 
   </body>
 </html>
