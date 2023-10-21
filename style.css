@@ -72,6 +72,8 @@ nav ul li {
 nav ul i {
   color: #f7f1f1;
 }
+
+
 #akad {
   background-image: url(Akad11.jpg);
   
@@ -197,124 +199,65 @@ nav ul i {
   cursor: pointer;
   border-radius: 30px;
 }
-#galeri .slideshow {
+#galeri{
   background-image: url(bg-10.jpg);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content:space-between;
   min-height: 100vh;
+  overflow: hidden;
+
 }
 
-img {
+.besar{
   align-items: center;
-  width: 700px;
-  height: 600px;
-  padding: 15px;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
   width: 100%;
-  text-align: center;
+  height: 68%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.besar img{
+  height: 600px;
+  width: 800px;
+  display: none;
+  
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.besar img.active {
+  display: block;
+  
 }
 
-.active,
-.dot:hover {
-  background-color: #717171;
+.kecil{
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 15px;
+  display: flex;
+  align-items: end;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+.kecil img {
+  width: 200px;
+  height: 100px;
 
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+}
+.kecil img:hover {
+
+  width: 250px;
+  height: 130px;
+  
+
 }
 
 
 #agenda {
   height: 100vh;
-<<<<<<< HEAD
   background-image: url(denah.jpg);
   background-size: cover;
-=======
-  background-color: antiquewhite;
->>>>>>> aefb5e4bfe247fb7663f8c501fa1e4f4a31cc1ba
   font-family: "Work Sans", sans-serif;
   font-size: 30px;
   color: antiquewhite;
@@ -372,53 +315,6 @@ body {
   min-height: 100vh;
 }
 
-/* CSS untuk kontainer yang akan mengatur teks ke tengah */
-.container1 {
-  padding: 0;
-  margin: 0;
-  background-image: url("kaesang & erina1.jpg");
-  background-size: cover; /* Ganti 'gambar-orang.jpg' dengan URL atau path ke gambar latar belakang Anda */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-/* CSS untuk kontainer yang akan mengatur teks ke tengah */
-.container {
-  padding: 0;
-  margin: 0;
-  background-image: url("Kaesang & erina 2.jpeg");
-  background-size: cover; /* Ganti 'gambar-orang.jpg' dengan URL atau path ke gambar latar belakang Anda */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-/* CSS untuk kontainer yang akan mengatur teks ke tengah */
-.container3 {
-  padding: 0;
-  margin: 0;
-  background-image: url("kaesang & erina3.png");
-  background-size: cover; /* Ganti 'gambar-orang.jpg' dengan URL atau path ke gambar latar belakang Anda */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-/* CSS untuk teks */
-.teks {
-  background-color: rgba(0, 0, 0, 0.5); /* Latar belakang transparan hitam */
-  padding: 20px;
-  border-radius: 10px; /* Sudut sudut elemen */
-  text-align: center; /* Teks di tengah */
-}
-
 #video #prewedding {
   background-image:url(Greybg.jpg);
   background-size: cover;
@@ -435,6 +331,7 @@ body {
   font-size: 20px;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
