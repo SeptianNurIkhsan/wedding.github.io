@@ -16,13 +16,6 @@
 <body>
    
     <section id="navbar">
-        <nav>
-            <ul>
-              <li>
-                <a href="#our">Contact Us</a>
-              </li>
-            </ul>
-        </nav>
         <h1> Tentang Kami </h1>
     </section>
     <section id="team">
@@ -77,12 +70,15 @@
                 <i class="fa-solid fa-phone"></i> 081348358729   
             </span>  
             <span>         
-            <i class="fa-regular fa-envelope"></i> fachrularief80676@gmail.com
+                <i class="fa-regular fa-envelope"></i> fachrularief80676@gmail.com
             </span>  
             <p><i>"Diam Kelaparan bergerak ke setia kawan"</i></p>
         </div>
         <div class="person">
-            <img src="foto ridhwan.jpg">
+            <div class="overlay" onmouseover="profileover()" onmouseleave="profilleave()">
+                <img src="foto ridhwan.jpg">
+                <span> Ridhwan</span>
+            </div>
             <br>
             <span>
                 <i class="fa-brands fa-instagram"></i> @fachrul_rdh
@@ -97,7 +93,7 @@
         </div>
     </section>
     <script src="index.js">
-
+        
     </script>
 </body>
 </html>
