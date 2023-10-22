@@ -13,3 +13,15 @@ function galeri(gmbr) {
 
 
 }
+
+function profileover() {
+    var nama = document.querySelector (".overlay span");
+    nama.classList.add("active");
+    
+}
+
+function profilleave() {
+    var nama = document.querySelector (".overlay span")
+    nama.classList.remove("active")
+}
+    
