@@ -1,43 +1,43 @@
 
 
-Software Requirements Specification
-for
-Website Undangan Digital
-Version 1.0 approved
-Prepared by 
-22091397047 – Ridhwan Fachrul Arief
-22091397048 – Fauzan Hedar Abit
-22091397049 – Septian Nur Ikhsan
 
+	
+<h1>Software Requirements Specification </h1>
+<h1>for</h1>
+<h1>Website Undangan Digital</h1>
+<h2>Version 1.0 approved</h2>
+<h2>Prepared by</h2>
+<p>22091397047 – Ridhwan Fachrul Arief</p>
+<p>22091397048 – Fauzan Hedar Abit</p>
+<p>22091397049 – Septian Nur Ikhsan<p>
+<br>
+<hr>
 
-
-11 September 2023
-
-Table of Contents
-1.	Pendahuluan	1
-1.1	Tujuan Penulisan Dokumen	1
-1.2	Audien yang Dituju dan Pembaca yang Disarankan	1
-1.3	Batasan Produk	1
-1.4	Definisi dan Istilah	1
-1.5	Referensi	1
-2.	Deskripsi Keseluruhan	2
-2.1	Deskripsi Produk	2
-2.2	Fungsi Produk	2
-2.3	Penggolongan Karakteristik Pengguna	2
-2.4	Lingkungan Operasi	2
-2.5	Batasan Desain dan Implementasi	2
-2.6	Dokumentasi Pengguna	3
-3.	Kebutuhan Antarmuka Eksternal	4
-3.1	User Interfaces	4
-3.2	Hardware Interface	4
-3.3	Software Interface	4
-3.4	Communication Interface	4
-4.	Functional Requirement	5
-4.1	Use Case Diagram	5
-4.2	Nama Use Case 1	5
-4.3	Nama Use Case 2	5
-4.4	Flowchart Diagram	6
-5.	Non Functional Requirements	7
+<h2>Table of Contents</h2>
+<p><a href="#Pendahuluan">1.	Pendahuluan	</a></p>
+<p><a href="#Pendahuluan">1.1	Tujuan Penulisan Dokumen	1</a></p>
+<p><a href="#Pendahuluan">1.2	Audien yang Dituju dan Pembaca yang Disarankan	1</a></p>
+<p><a href="#Pendahuluan">1.3	Batasan Produk	1</a></p>
+<p><a href="#Pendahuluan">1.4	Definisi dan Istilah	1</a></p>
+<p><a href="#Pendahuluan">1.5	Referensi	1</a></p>
+<p><a href="#Pendahuluan">2.	Deskripsi Keseluruhan	2</a></p>
+<p><a href="#Pendahuluan">2.1	Deskripsi Produk	2</a></p>
+<p><a href="#Pendahuluan">2.2	Fungsi Produk	2</a></p>
+<p><a href="#Pendahuluan">2.3	Penggolongan Karakteristik Pengguna	2</a></p>
+<p><a href="#Pendahuluan">2.4	Lingkungan Operasi	2</a></p>
+<p><a href="#Pendahuluan">2.5	Batasan Desain dan Implementasi	2</a></p>
+<p><a href="#Pendahuluan">2.6	Dokumentasi Pengguna	3</a></p>
+<p><a href="#Pendahuluan">3.	Kebutuhan Antarmuka Eksternal	4</a></p>
+<p><a href="#Pendahuluan">3.1	User Interfaces	4</a></p>
+<p><a href="#Pendahuluan">3.2	Hardware Interface	4</a></p>
+<p><a href="#Pendahuluan">3.3	Software Interface	4</a></p>
+<p><a href="#Pendahuluan">3.4	Communication Interface	4</a></p>
+<p><a href="#Pendahuluan">4.	Functional Requirement	5</a></p>
+<p><a href="#Pendahuluan">4.1	Use Case Diagram	5</a></p>
+<p><a href="#Pendahuluan">4.2	Nama Use Case 1	5</a></p>
+<p><a href="#Pendahuluan">4.3	Nama Use Case 2	5</a></p>
+<p><a href="#Pendahuluan">4.4	Flowchart Diagram	6</a></p>
+<p><a href="#Pendahuluan">5.	Non Functional Requirements	7</a></p>
 
 Revision History
 Name
@@ -71,12 +71,13 @@ Version
 
 
 
-
+<selection="Pendahuluan">
 Pendahuluan
 Tujuan Penulisan Dokumen
 Dokumen ini menjelaskan tentang spesifikasi persyaratan perangkat lunak untuk website
 undangan digital. Dokumen ini ditujukan untuk pengguna dan pengembang. Pengguna dan pembaca diasumsikan memiliki pengetahuan tentang dasar-dasar website. Pemahaman HTML (Hypertext Markup Language) dan Flowchart diagram juga diperlukan bagi pengguna. Dokumen ini diharapkan dapat menjadi langkah awal untuk mendesain website.
 
+<selection
 
 Audien yang Dituju dan Pembaca yang Disarankan
 Dokumen ini ditujukan untuk semua kalangan . Audien yang akan dituju dalam konteks platform website ini adalah Masyarakat yang berniat untuk membuat undangan pernikahan menggunakan produk usahanya berupa produk buatan asli mahasiswa Universitas Negeri Surabaya.
@@ -116,11 +117,6 @@ Platform	:	Sebuah wadah digital yang banyak dipakai manusia untuk berbagai macam
 Website	:	Kumpulan halaman web yang saling terhubung dan dapat diakses melalui internet.
 
 Referensi
-<Tulis daftar dokumen lain atau alamat web yang menjadi acuan SRS ini.>
-
-
-
-
 
 Deskripsi Keseluruhan
 Deskripsi Produk 
@@ -129,30 +125,30 @@ Platform website undangan digital  adalah situs website yang dirancang  untuk me
 
 Fungsi Produk 
 Fungsi utama produk adalah memberikan fasilitas dan kemudahan bagi masyarakat.Dapat menyebar luas serta hemat biaya merupakan manfaat website ini.Website ini harus memberikan tampilan yang menarik sehingga pembaca tertarik untuk membukanya.Admin juga dapat memasukkan video atau foto sehingga pembaca dapat mengenali sang pengundang. 
-Penggolongan Karakteristik Pengguna
-<Identifikasi berbagai golongan pengguna yang terkait dengan produk yang dikembangkan>
-
+    Penggolongan Karakteristik Pengguna
 Tabel 1 Karakteristik Pengguna
 Kategori Pengguna
 Tugas
 Hak Akses ke aplikasi
 Kemampuan yang harus dimiliki
-Kasir (example)
-Mencatat transaksi penjualan harian
-Insert Data
-Entry Data Transaksi Penjualan
-Supervisor (Example)
+Tamu Undangan
+membuka Undangan
+Membuat comment 
+Melakukan konfirmasi kehadiran
+Mengisi data 
+Pembuat 
+Acara
 Memanipulasi Data jika ada kesalahan entry dari kasir
-Insert, Update, Delete Data
-Manipulasi Data Transaksi Penjualan
+Memilih tempat pernikahan 
+Mengisi data tempat
 
 
-
-
-
-
-
-
+Admin
+membuat website ,
+memasukkan data yang diminta oleh pembuat acara
+Memberikan akses kepada pembuat acara untuk menyimpan data kehadiran ,menyimpan gambar dan merubah image
+Menyediakan kebutuhan
+fungsional,menyediakan fasilitas.menu tampilan gambar dan video
 
 
 
@@ -281,14 +277,14 @@ Penjelasan
 
 
 Use Case Diagram
-<Gambarkan use case diagramnya dari functional requirement yang didapatkan>
 Nama Use Case 1 
-	![image](https://github.com/SeptianNurIkhsan/wedding.github.io/assets/124507620/faefb581-6436-4c2c-822b-d91d1f46f494)
+Deskripsi Use Case
+	Dalam Use case diagram diatas menjelaskan 
+User : Dapat membuka Link,melihat undangan,melihat jadwal acara,melihat maps,melihat galeri,Konfirmasi kehadiran.
 
+Admin : Mengunggah jadwal,Mengunggah Maps,Melihat status konfirmasi kehadiran.
 Nama Use Case 2
 Flowchart Diagram
-![image](https://github.com/SeptianNurIkhsan/wedding.github.io/assets/124507620/47414f4a-b5f1-4837-95e2-fa99c7e08911)
-
 
 
 Untuk penjelasan pada flowchart yang akan dilakukan adalah pertama tama pastinya terdapat start kemudian anda akan diminta untuk menekan link yang akan mengarahkan kepada website kami. Di Dalam website ini terdapat cover dan juga link untuk melihat undangan .jika anda ingin melihat undangan maka anda bisa menekan link “lihat undangan”kemudian anda akan diarahkan ke undangan yang berisi nama alamat acara tersebut serta tanggal acara.setelah anda melihat denah acara anda dapat melihat galeri galeri acara tersebut.kemudian anda bisa konfirmasi kehadiran anda melalui website tersebut.Selesai.
