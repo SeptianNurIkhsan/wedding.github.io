@@ -14,31 +14,43 @@
 <hr>
 
 <h2>Table of Contents</h2>
-<p><a href="#Pendahuluan">1.	Pendahuluan	</a></p>
-<p><a href="#Pendahuluan">1.1	Tujuan Penulisan Dokumen	1</a></p>
-<p><a href="#Pendahuluan">1.2	Audien yang Dituju dan Pembaca yang Disarankan	1</a></p>
-<p><a href="#Pendahuluan">1.3	Batasan Produk	1</a></p>
-<p><a href="#Pendahuluan">1.4	Definisi dan Istilah	1</a></p>
-<p><a href="#Pendahuluan">1.5	Referensi	1</a></p>
-<p><a href="#Pendahuluan">2.	Deskripsi Keseluruhan	2</a></p>
-<p><a href="#Pendahuluan">2.1	Deskripsi Produk	2</a></p>
-<p><a href="#Pendahuluan">2.2	Fungsi Produk	2</a></p>
-<p><a href="#Pendahuluan">2.3	Penggolongan Karakteristik Pengguna	2</a></p>
-<p><a href="#Pendahuluan">2.4	Lingkungan Operasi	2</a></p>
-<p><a href="#Pendahuluan">2.5	Batasan Desain dan Implementasi	2</a></p>
-<p><a href="#Pendahuluan">2.6	Dokumentasi Pengguna	3</a></p>
-<p><a href="#Pendahuluan">3.	Kebutuhan Antarmuka Eksternal	4</a></p>
-<p><a href="#Pendahuluan">3.1	User Interfaces	4</a></p>
-<p><a href="#Pendahuluan">3.2	Hardware Interface	4</a></p>
-<p><a href="#Pendahuluan">3.3	Software Interface	4</a></p>
-<p><a href="#Pendahuluan">3.4	Communication Interface	4</a></p>
-<p><a href="#Pendahuluan">4.	Functional Requirement	5</a></p>
-<p><a href="#Pendahuluan">4.1	Use Case Diagram	5</a></p>
-<p><a href="#Pendahuluan">4.2	Nama Use Case 1	5</a></p>
-<p><a href="#Pendahuluan">4.3	Nama Use Case 2	5</a></p>
-<p><a href="#Pendahuluan">4.4	Flowchart Diagram	6</a></p>
-<p><a href="#Pendahuluan">5.	Non Functional Requirements	7</a></p>
 
+[Bab 1. Pendahuluan](#Bab-1-Pendahuluan)
+
+- [1.1 Tujuan Penulisan Dokumen](#11-Tujuan-Penulisan-Dokumen)
+- [1.2 Audien yang Dituju dan Pembaca yang Disarankan](#12-Audien-yang-Dituju-dan-Pembaca-yang-Disarankan)
+- [1.3 Batasan Produk](#13-Batasan-Produk)
+- [1.4 Definisi dan Istilah](#14-Definisi-dan-Istilah)
+- [1.5 Referensi](#15-Referensi)
+
+[Bab 2. Deskripsi Keseluruhan](#Bab-2Deskripsi-Keseluruhan)
+
+- [1.1 Deskripsi Produk	2](#11-Tujuan-Penulisan-Dokumen)
+- [2.2	Fungsi Produk	2<](#12-Audien-yang-Dituju-dan-Pembaca-yang-Disarankan)
+- [2.3	Penggolongan Karakteristik Pengguna	2](#13-Batasan-Produk)
+- [2.4	Lingkungan Operasi	2](#14-Definisi-dan-Istilah)
+- [2.5	Batasan Desain dan Implementasi	2](#15-Referensi)
+- [2.6	Dokumentasi Pengguna	3](#15-Referensi)
+  
+[Bab 3. Kebutuhan Antarmuka Eksternal](#Bab-1-Pendahuluan)
+
+- [3.1	User Interfaces	4](#11-Tujuan-Penulisan-Dokumen)
+- [1.2 Audien yang Dituju dan Pembaca yang Disarankan](#12-Audien-yang-Dituju-dan-Pembaca-yang-Disarankan)
+- [3.2	Hardware Interface	4</](#13-Batasan-Produk)
+- [>3.3	Software Interface	4](#14-Definisi-dan-Istilah)
+- [3.4	Communication Interface	4](#15-Referensi)
+
+[Bab 4. Functional Requirement	5](#Bab-1-Pendahuluan)
+
+- [4.1	Use Case Diagram	5](#11-Tujuan-Penulisan-Dokumen)
+- [4.2	Nama Use Case 1	5](#12-Audien-yang-Dituju-dan-Pembaca-yang-Disarankan)
+- [4.3	Nama Use Case 2	5</](#13-Batasan-Produk)
+- [4.4	Flowchart Diagram	6](#14-Definisi-dan-Istilah)
+
+[Bab 5. Non Functional Requirements](#Bab-1-Pendahuluan)
+
+
+<hr>
 Revision History
 Name
 Date
@@ -63,15 +75,7 @@ Version
 
 
 
-
-
-
-
-
-
-
-
-<selection="Pendahuluan">
+Pendahuluan">
 Pendahuluan
 Tujuan Penulisan Dokumen
 Dokumen ini menjelaskan tentang spesifikasi persyaratan perangkat lunak untuk website
