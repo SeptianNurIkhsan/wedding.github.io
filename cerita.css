@@ -88,7 +88,7 @@ body {
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            background-image: url(bg\ wood.jpg);
+            background-image: url(bg-6.jpg);
             margin: 0;
             padding: 0;
             display: flex;
@@ -105,6 +105,7 @@ body {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             justify-content: center;
             align-items: center;
+            opacity: 80%;
         }
 
         h2 {
@@ -139,15 +140,18 @@ body {
         }
 
         button {
-            background-color: #007bff;
+            background-color: #303031;
             color: #fff;
             padding: 10px 20px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            display: flex;
+            justify-content: right;
         }
 
         .button {
             align-items: center;
+           
         }
         

@@ -45,7 +45,7 @@ body::before {
   z-index: -1;
 }
 
-nav {
+#navbarleft {
   width: 100px;
   position: fixed;
   background-color:#717171;
@@ -56,7 +56,7 @@ nav {
   border-radius: 25px;
   z-index: 1000;
 }
-nav ul {
+#navbarleft ul {
   height: 10em;
   display: flex;
   justify-content: space-around;
@@ -65,12 +65,46 @@ nav ul {
   text-align: center;
 }
 
-nav ul li {
+#navbarleft ul li {
   list-style: none;
 }
 
-nav ul i {
+#navbarleft ul i {
   color: #f7f1f1;
+}
+
+#toggle{
+  width: 100%;
+  position: fixed;
+  background-color: #717171;
+  top: 0%;
+  z-index: 1000;
+  padding: 10px;
+}
+
+#toggle a{
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color:dimgrey;
+  overflow: hidden;
+  border-radius: 3vh;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 2,3vh;
+}
+
+#toggle a:hover{
+  background-color: white;
+  color: #717171;
+
+}
+
+#toggle ul li{
+  right: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translateX(43%);
 }
 
 
@@ -125,8 +159,7 @@ nav ul i {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:url(bgweding2.jpg);
-  background-size: cover;
+  background-image:url(bg-5.jpg);
   min-height: 100vh;
 }
 
@@ -176,7 +209,7 @@ nav ul i {
 
 #cerita {
   font-family: "Work Sans", sans-serif;
-  background-image: url(bgcrt.jpg);
+  background-image: url(bgceritaa.jpg);
   background-size: cover;
   min-height: 100vh;
   padding: 2em;
@@ -200,7 +233,8 @@ nav ul i {
   border-radius: 30px;
 }
 #galeri{
-  background-image: url(bg-10.jpg);
+  background-image: url(bgceritaa.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content:space-between;

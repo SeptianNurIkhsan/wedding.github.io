@@ -14,14 +14,14 @@ function galeri(gmbr) {
 
 }
 
-function profileover() {
-    var nama = document.querySelector (".overlay span");
+function profileover(element) {
+    var nama = element.querySelector ("span");
     nama.classList.add("active");
     
 }
 
-function profilleave() {
-    var nama = document.querySelector (".overlay span")
+function profilleave(element) {
+    var nama = element.querySelector ("span")
     nama.classList.remove("active")
 }
     
