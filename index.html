@@ -55,8 +55,9 @@
     <!--------------------------Undangan Awal--------------------->
     <section id="akad">
       <div class="akadnikah">
-        <h1 class="ad">K & E</h1>
+        <h1 class="ke">K & E</h1>
         <h1>Kaesang & Erina</h1>
+        <a class="lihat" href="#home" onclick="enableScroll()">Lihat Undangan</a>
       </div>
     </section>
     <!------------------------- END NAVIGASI ------------------------->
@@ -131,18 +132,13 @@
          <img onmouseover="galeri(1)" src="foto-prewed-1.jpg" alt="1">    
          <img onmouseover="galeri(2)" src="foto-prewed-2.jpg" alt="2">    
          <img onmouseover="galeri(3)" src="foto-prewed-3.jpg" alt="3">    
-         <img onmouseover="galeri(4)" src="foto-prewed-5.jpg" alt="5">
-              
+         <img onmouseover="galeri(4)" src="foto-prewed-5.jpg" alt="5">  
       </div>
-                   
-
-
     </section>
       
   
 
     <!------------------------ AGENDA & DENAH----------------------------->
-
       <section id="agenda">
         <div class="acara">
          <div class="desc">
@@ -182,6 +178,7 @@
         </div>
       </section>
       </body>
+
     <!-------------------------VIDEO YOUTUBE----------------------------->
     <section id="video">
       <div id="prewedding">
@@ -193,7 +190,6 @@
 
     <!-------------------------KATA KATA--------------------------------->
     <section id="momen">
-
       <h5>Moment yang berbahagia</h5>
       <br />
       <p>"Menciptakan kenangan adalah hadiah</p>
@@ -280,7 +276,29 @@
           </form>
         </div>
       </div>
-    </section> 
+    </section>
+     <!--JavaScript untuk mengatur bagian cover, jika tidak ditekan maka tidak bisa discroll  -->
+     <script>
+       const roolElement = document.querySelector(":root");
+      //  fungsi untuk menonaktifkan scroll sebelum ditekan triggernya
+       function disableScroll() {
+         const scrollTop = window.pageYOffset || document.documentElement.scrollTop; 
+         const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+         
+         window.onscroll = function () {
+         window.scrollTo(scrollTop, scrollLeft);
+         }
+         roolElement.style.scrollBehavior = 'auto';
+       }
+      //  fungsi agar laman bisa discroll saat trigger sudah ditekan
+       function enableScroll (){
+         window.onscroll = function () {}
+         roolElement.style.scrollBehavior = 'smooth';
+       }
+       disableScroll();
+    </script>
+
+    <!-- untuk menghubungkan dengan JavaScript -->
     <script src="index.js">
 
     </script>
