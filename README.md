@@ -279,7 +279,6 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 
 
 <h3>Kehadiran.html</h3>
-
 1. Mendeklarasikan &lt;!DOCTYPE html&gt;: menandakan bahwa dokumen adalah dokumen HTML.
 2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.
 3. &lt;head&gt;: Bagian kepala dari dokumen HTML yang berisi informasi meta dan judul.
@@ -317,6 +316,7 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 6. &lt;a class="tekan" href="index.html"&gt;Kembali&lt;/a&gt;: Membuat tautan (link) dengan teks "Kembali" yang mengarahkan pengguna kembali ke halaman "index.html" ketika diklik.
 
 <h3>Cerita.html</h3>
+
 <p>1. &lt;!DOCTYPE html&gt; : Ini adalah deklarasi tipe dokumen HTML yang mendefinisikan jenis dokumen HTML yang digunakan.</p>
 <p>2. &lt;html lang="en"&gt; : Ini adalah elemen utama yang mengawali dokumen HTML. lang="en" menunjukkan bahwa bahasa yang digunakan dalam dokumen ini adalah bahasa Inggris.</p>
 <p>3. &lt;head&gt; : Ini adalah elemen kepala dari dokumen HTML yang berisi metadata, seperti karakter set, judul halaman, dan tautan ke berkas eksternal.</p>
@@ -337,6 +337,7 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 <p>18. &lt;p&gt;...: Ini adalah elemen paragraf (p) yang berisi cerita tentang pertemuan Kaesang dan Erina.</p>
 
 <H3>Info.html</H3>
+
 <p>1. &lt;!DOCTYPE html&gt; : Deklarasi tipe dokumen HTML yang menunjukkan bahwa ini adalah dokumen HTML.</p>
 <p>2. &lt;html lang="en"&gt; : Elemen awal yang menandakan awal dari dokumen HTML. lang="en" menunjukkan bahwa bahasa yang digunakan dalam dokumen adalah bahasa Inggris. </p>
 <p>3. &lt;head&gt; : Bagian kepala dari dokumen HTML yang berisi metadata dan tautan ke berkas eksternal. </p>
@@ -361,8 +362,22 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 <p>22. Kutipan atau moto pribadi (dalam elemen &lt;p&gt;). </p>
 <p>23. &lt;script src="index.js"&gt; : Ini menghubungkan halaman dengan berkas JavaScript eksternal bernama "index.js". Berkas ini mungkin digunakan untuk menambahkan perilaku interaktif ke dalam halaman web. </p>
 
+<H3>slideIndex.js</H3>
+<p>1. let slideIndex = 1; : Ini adalah deklarasi variabel slideIndex yang digunakan untuk melacak slide mana yang sedang ditampilkan. Nilai awalnya diatur ke 1, yang berarti slide pertama akan ditampilkan saat halaman dimuat.</p>
+<p>2. showSlides(slideIndex); : Ketika halaman dimuat, ini memanggil fungsi showSlides() dengan nilai slideIndex awal (yaitu 1) untuk menampilkan slide pertama.</p>
+<p>3. Fungsi plusSlides(n): Ini adalah fungsi yang digunakan untuk mengganti slide dengan mengklik tombol "Next" atau "Previous" pada slider. Parameter n adalah jumlah slide yang akan ditambahkan atau dikurangkan dari slideIndex.</p>
+<p>4. Fungsi currentSlide(n): Ini adalah fungsi yang digunakan untuk mengganti slide dengan mengklik thumbnail (titik kecil) yang mewakili slide tertentu. Parameter n adalah nomor slide yang dipilih.</p>
+<p>5. Fungsi showSlides(n): Ini adalah fungsi utama yang mengatur tampilan slide berdasarkan nilai n.</p>
+<p>6. Variabel i digunakan untuk iterasi.</p>
+<p>7. Variabel slides adalah kumpulan elemen dengan class "mySlides" yang mewakili slide dalam slider.</p>
+<p>8. Variabel dots adalah kumpulan elemen dengan class "dot" yang mewakili thumbnail atau titik kecil yang sesuai dengan setiap slide.</p>
+<p>9. Jika n lebih besar dari jumlah slide yang tersedia, slideIndex diatur kembali ke 1, sehingga slider akan mengulang dari awal.</p>
+<p>10. Jika n kurang dari 1, slideIndex diatur ke slide terakhir, sehingga Anda dapat menggeser ke slide terakhir dari slide pertama.</p>
+<p>11. Selanjutnya, semua elemen dengan class "mySlides" diubah menjadi display: none (tidak terlihat), sehingga semua slide disembunyikan.</p>
+<p>12. Semua elemen dengan class "dot" yang memiliki class "active" kehilangan class "active", yang digunakan untuk menunjukkan slide mana yang aktif.</p>
+<p>13. Kemudian, slide yang sesuai dengan slideIndex (setelah perhitungan di atas) diubah menjadi display: block, sehingga hanya satu slide yang ditampilkan pada satu waktu.</p>
+<p>14. Thumbnail yang sesuai dengan slideIndex juga diberikan class "active" untuk menandai slide yang sedang ditampilkan.</p>
 
- 
 
 
 
