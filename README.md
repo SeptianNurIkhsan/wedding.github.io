@@ -95,44 +95,17 @@ Platform website undangan digital  adalah situs website yang dirancang  untuk me
 ##Fungsi Produk 
 Fungsi utama produk adalah memberikan fasilitas dan kemudahan bagi masyarakat.Dapat menyebar luas serta hemat biaya merupakan manfaat website ini.Website ini harus memberikan tampilan yang menarik sehingga pembaca tertarik untuk membukanya.Admin juga dapat memasukkan video atau foto sehingga pembaca dapat mengenali sang pengundang. 
 
-
-| Kategori Pengguna | Tugas | Hak Akses ke aplikasi |Kemampuan yang harus dimiliki |
-| -------- | -------- | -------- |
-| Baris 1, Kolom 1 | Baris 1, Kolom 2 | Baris 1, Kolom 3 |
-| Baris 2, Kolom 1 | Baris 2, Kolom 2 | Baris 2, Kolom 3 |
-
 ## Penggolongan Karakteristik Pengguna
 Tabel 1 Karakteristik Pengguna
-Kategori Pengguna
-Tugas
-Hak Akses ke aplikasi
-Kemampuan yang harus dimiliki
-Tamu Undangan
-membuka Undangan
-Membuat comment 
-Melakukan konfirmasi kehadiran
-Mengisi data 
-Pembuat 
-Acara
-Memanipulasi Data jika ada kesalahan entry dari kasir
-Memilih tempat pernikahan 
-Mengisi data tempat
-
-
-Admin
-membuat website ,
-memasukkan data yang diminta oleh pembuat acara
-Memberikan akses kepada pembuat acara untuk menyimpan data kehadiran ,menyimpan gambar dan merubah image
-Menyediakan kebutuhan
-fungsional,menyediakan fasilitas.menu tampilan gambar dan video
-
-
-
-
-
-
-
-
+| Kategori Pengguna | Tugas | Hak Akses ke aplikasi |Kemampuan yang harus dimiliki |
+| -------- | -------- | -------- | -------- |
+| Tamu Undangan, | Melihat Undangan| Melihat lihat gambar|Tamu yang telah diundang oleh pembuat acara  | 
+|  | Melihat peta | Memutar/Mematikan musi| mengisi data | 
+|  | Melakukan konfirmasi kehadiran | Memutar/Mematikan Video|  |
+| Pembuat Acara | Memilih tempat pernikahan | Melihat lihat gambar|Mengisi data  | 
+|  |  Mengisi data tempat | Melihat konfirmasi kehadiran|  |
+| Admin |membuat website |Memberikan akses kepada pembuat acara untuk menyimpan data kehadiran |Menyediakan kebutuhan fungsional|
+| Admin |memasukkan data yang diminta oleh pembuat acara |menyimpan gambar dan merubah image |menyediakan fasilitas|
 
 
 ## Lingkungan Operasi 
@@ -172,6 +145,8 @@ Software Interface
 ## Functional Requirement
 <Area ini menggambarkan pengorganisasian persyaratan fungsional untuk produk dengan fitur sistem, layanan utama yang disediakan oleh produk>
 
+# HTML
+# Index.HTML
 
 
 
