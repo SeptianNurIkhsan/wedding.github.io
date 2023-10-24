@@ -49,7 +49,10 @@
 - [4.4	Flowchart Diagram	6](#14-Definisi-dan-Istilah)
 
 [Bab 5. Non Functional Requirements](#Bab-1-Pendahuluan)
-
+[Bab 6. Penjelasan codingan HTML,CSS dan JavaScript](#Bab-1-Pendahuluan)
+- [6.1	HTML](#11-Tujuan-Penulisan-Dokumen)
+- [6.2	CSS](#12-Audien-yang-Dituju-dan-Pembaca-yang-Disarankan)
+- [6.3	JavaScript](#13-Batasan-Produk)
 
 <hr>
 <div align="center">
