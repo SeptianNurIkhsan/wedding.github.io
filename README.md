@@ -125,15 +125,25 @@ Bahasa Pemrograman: Website ini dikembangkan menggunakan bahasa pemrograman sepe
 Browser Web: Aplikasi ini bisa diakses melalui berbagai browser web populer seperti Google Chrome, Mozilla Firefox, Apple Safari, dan Microsoft Edge.
 
 ## Dokumentasi Pengguna
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%201.png)
+Pada tampilan awal ini terdiri nama mempelai,navbar dan juga tentang kami.Pada tampilan Navbar berisi tentang Foto kedua mempelai,Ungkapan,Maps,Galeri,Cerita kami dan juga terdapat fitur untuk memastikan musik.Pada tampilan ini anda harus menekan tombol lihat undangan jika ingin kehalaman utama.Setelah anda menekan tombol "Lihat Undangan" maka anda dapat menggeser cursor kehalaman bawah untuk melihat isi lebih lanjut.  
+![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%202.png)
+Pada tampilan ini terdapat ayat suci alqur an beserta artinya yang bercerita tentang pernikahan  
+![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%203.png)
+Pada tampilan ini berisi gambar dan Biodata tentang kedua mempelai 
+![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%204.png)
+Pada tampilan ini berisi terdapat satu tombol "cerita kami" yang berisi awal pertemuan mereka
+![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%205.png)
+Setelah anda menekan tombol "Cerita Kami" anda akan menuju pada page ini yang berisi Ungkapan Perasaan,awal pertemuan dan Momen bahagia.
+![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%206.png)
+Pada tampilan ini berisi galeri.Para tamu undangan dapat melihat gambar gambar yang berisikan kedua mempelai
+![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%207.png)
+Tampilan ini akan menampilakn sebuah maps tempat acara .terdapat tanggal dan juga tempat acara berlangsung. 
+![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%208.png)
+![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%209.png)
+![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%2010.png)
+![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%2011.png)
+![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%2012.png)
 
 # Kebutuhan Antarmuka Eksternal
 ## User Interfaces 
