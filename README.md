@@ -276,6 +276,23 @@ Non-functional requirements (NFRs) dalam konteks website undangan pernikahan mer
 31.    &lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.071323981621!2d110.39959227461209!3d-7.782262677216929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59c29f13d139%3A0x38cd9f2273ec106e!2sPendopo%20Agung%20Royal%20Ambarrukmo!5e0!3m2!1sid!2sid!4v1696898494664!5m2!1sid!2sid"  width="500"  height="200"  style="border: 0;"  allowfullscreen=""  loading="lazy" 
 referrerpolicy="no-referrer-when-downgrade"> &lt;/iframe&gt; "Iframe" digunakan untuk 
 menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam kasus ini menampilkan goggle maps dengan tinggi 200 pixel dan lebar 500pixel. kemudian menghilangkan border "i frame" "loading=lazy" berarti elemen ini hanya akan dimuat saat tampilan pengguna mendekati elemen tersebut, membantu menghemat waktu dan sumber daya jika elemen ini berada di luar jangkauan tampilan awal.
+32.   &lt;section id="video"&gt; membuat elemen "section" dengan nilai "video" yang didalamnya terdapat &lt;video width="900" height="600" controls &gt; &lt;ssource src="Video.mp4" type="video/mp4" /&gt;.Menampilkan file"Video.mp4" dengan tinggi 600 dan lebar 900.
+33. &lt;section id="momen"&gt; membuat section momen yang berisi kata kata tentang momen yang berbahagia
+34. &lt;section id="kehadiran"&gt; berisikan section yang memiliki nilai "kehadiran"
+35. &lt;a class="button" href="kehadiran.html"&gt;<i class="fa-solid fa-list-check" style="color: #f5f5f5"&gt;&lt;/i&gt; Konfirmasi Kehadiran&lt;/a&gt; kemudian membuat link agar terhubung dengan"kehadiran.html" dengan menekan icon yang berwarna putih.
+36. &lt;form action="Contoh 1.html"&gt; merupkan elemen yang memiliki atribut "action yang mengarahkan formulir  ke halaman "contoh 1.html".
+37. &lt;input placeholder="Nama Lengkap" type="text" /&gt;  memasukkan elemen input yang berfungsi untuk memasukkan text."Placeholder" merupakan atribut yang berfungsi menampilkan text Nama lengkap dalam kotak input ."type=text" berfungsi untuk menentukan jenit input yang akan diterima dalam elemen input.
+38.  &lt;script&gt; adalah elemen yang menunjukkan bahwa elemen nya adalah java script
+39.  &lt;const rootElement = document.querySelector(":root");&gt; kemudian memilih elemen dengan sebutan "root" sehingga kita dapat mengakses dan memanipulasi properti css yang didefinisikan dengan elemen root.
+40.  function disableScroll() membuat fungsi "disableScroll" yang berfungsi mematikam "scrolling halaman .didalam fingsi ini terdapat { &lt;const scrollTop = window.pageYOffset || document.documentElement.scrollTop; &gt; baris ini bertujuan untuk mendapatkan posisi guliran vertikal (scroll top) saat ini. Ini mencoba mengambil nilai dari "window.pageYOffset"
+      &lt;  const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;&gt;Baris ini bertujuan untuk mendapatkan posisi guliran horizontal (scroll left) saat ini. Ini mengikuti pola yang sama dengan baris sebelumnya, mencoba mengambil nilai dari window.pageXOffset dan jika tidak tersedia, maka akan mencoba mengambil document.documentElement.scrollLeft.
+41.window.onscroll = function ()   kemudian memasukkan fungsi yang mengatur perilaku guliran.event handler ini mencoba mengatur posisi guliran kembali ke nilai scrollTop dan scrollLeft { window.scrollTo(scrollTop, scrollLeft);     }
+         roolElement.style.scrollBehavior = 'auto'; Ini mencoba mengatur gaya CSS yang disebut scrollBehavior pada elemen dengan sebutan roolElement
+42. function enableScroll () fungsi ini berfungsi untuk mengaktifkan kembali perilaku guliran pada web{
+         window.onscroll = function () Baris ini mencoba menghapus fungsi yang sebelumnya telah ditugaskan ke window.onscroll{}
+         roolElement.style.scrollBehavior = 'smooth';adalah baris kode JavaScript yang mengatur perilaku guliran halaman web dengan menggunakan CSS scrollBehavior. Ini mengubah perilaku standar guliran halaman web menjadi lebih halus dengan efek animasi.
+
+43. &lt;script src="index.js"&gt; ini merupakan script yang menghubungkan page index.html dengan Index.js.
 
 
 <h3>Kehadiran.html</h3>
