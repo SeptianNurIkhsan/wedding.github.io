@@ -1,7 +1,5 @@
 
 
-
-	
 <h1>Software Requirements Specification </h1>
 <h1>for</h1>
 <h1>Website Undangan Digital</h1>
@@ -134,93 +132,18 @@ Browser Web: Aplikasi ini bisa diakses melalui berbagai browser web populer sepe
 <Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
 
 ## Hardware Interface
-<Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.>
-Software Interface
-<Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.>
+Pembuatan website dikhususkan kepada seluruh tamu undangan . Untuk menjangkau website ini tidak dibutuhkan spesifikasi yg tinggi dikarenakan pada umumnya penerima yang akan menerima surat undangan ini  sudah memiliki perangkat dengan hardware yang lebih dari cukup untuk menjangkau atau membuka website ini.
+
+## Software Interface
+Antarmuka  perangkat lunak dari undangan pernikahan digital berisi kan kedua nama mempelai,tanggal pernikahan dan juga tombol "lihat Undangan" untuk masuk kedalam halaman utama.Pada halaman utama sendiri terdapat nama mempelai,foto kedua mempelai,tanggal pernikahan,tempat pernikahan,galeri,video prewedding,cerita yang mempertemukan mereka,konfirmasi kehadiran ,ucapan dan doa.Semuanya ditampilkan dengan menarik agar para tamu undangan tertarik untuk datang pada acara pernikahan tersebut.Antarmuka perangkat lunak ini berfungsi sebagai cover dari halaman utama.
 
 ## Communication Interface
 <Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
-## Functional Requirement
-<Area ini menggambarkan pengorganisasian persyaratan fungsional untuk produk dengan fitur sistem, layanan utama yang disediakan oleh produk>
 
-# HTML
-# Index.HTML
+# Functional Requirement
+(persyaratan fungsional) adalah bagian penting dari spesifikasi perangkat lunak yang menggambarkan apa yang seharusnya dilakukan oleh perangkat lunak yang sedang dikembangkan. Ini menjelaskan perilaku dan fungsi yang diharapkan dari perangkat lunak. Fungsional requirements biasanya melibatkan apa yang harus dilakukan perangkat lunak dalam berbagai situasi dan kondisi. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Use Case Diagram
+## Use Case Diagram
 ## Nama Use Case 1 
 Deskripsi Use Case
 	Dalam Use case diagram diatas menjelaskan 
@@ -228,7 +151,8 @@ Deskripsi Use Case
 
 -Admin : Mengunggah jadwal,Mengunggah Maps,Melihat status konfirmasi kehadiran.
 
-## Nama Use Case 2 
+## Nama Use Case 2
+![alt text]
 
 Untuk penjelasan pada flowchart yang akan dilakukan adalah pertama tama pastinya terdapat start kemudian anda akan diminta untuk menekan link yang akan mengarahkan kepada website kami. Di Dalam website ini terdapat cover dan juga link untuk melihat undangan .jika anda ingin melihat undangan maka anda bisa menekan link “lihat undangan”kemudian anda akan diarahkan ke undangan yang berisi nama alamat acara tersebut serta tanggal acara.setelah anda melihat denah acara anda dapat melihat galeri galeri acara tersebut.kemudian anda bisa konfirmasi kehadiran anda melalui website tersebut.Selesai.
 
