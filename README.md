@@ -402,12 +402,11 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 14. #akad { merupakan selector CSS yang merujuk kedalam eleemn "akad".didalam class"akad"terdapat background-image: url(Akad11.jpg);: Properti ini mengatur gambar latar belakang elemen "akad" menjadi "Akad11.jpg"background-size: cover;: Properti ini mengatur ukuran gambar latar belakang agar selalu menutupi seluruh area,height: 100vh;: Properti ini mengatur tinggi elemen "akad" menjadi 100vh,text-align: center;: Properti ini mengatur pemusatan teks dalam elemen "akad" secara horizontal,flex-direction: column;: Properti ini mengatur arah elemen-elemen dalam elemen "akad" menjadi vertikal (kolom).justify-content: center;: Properti ini mengatur pemusatannya secara vertikal dengan menggeser elemen-elemen dalam elemen "akad" ke tengah vertikal.align-items: center;: Properti ini mengatur pemusatannya secara horizontal dengan menggeser elemen-elemen dalam elemen "akad" ke tengah.font-family: "Sacramento", cursive;: Properti ini mengatur jenis font teks dalam elemen "akad" menjadi "Sacramento" color: #ded2d2;: Properti ini mengatur warna teks dalam elemen "akad" menjadi abu-abu tua.
 15. #akad .ke { Selector ini mengatur tampilan untuk elemen dengan class "ke" yang ada pada elemen"akad".didalam class"akad"terdapat font-size: 150px;: Properti ini mengatur ukuran font untuk teks dalam elemen-elemen dengan kelas "ke." Ukuran fontnya adalah 150 piksel,transform: translateY(-50%);: Properti ini menggunakan transformasi CSS untuk menggeser elemen-elemen dengan kelas "ke" ke atas (translateY) sejauh 50% dari tinggi elemen aslinya.line-height: 2rem;: Properti ini mengatur tinggi baris (line height) untuk teks dalam elemen-elemen dengan kelas "ke." Ukuran barisnya adalah 2rem
 16. .akadnikah {  selector ini mengatur tampilan untuk elemen dengan kelas "akadnikah" didalam akad nikah terdapat transform: translateY(20%); digunakan untuk menggeser elemen secara vertikal dengan cara mengubah nilai transformasi Y (Y-axis) sebesar 20% dari tinggi elemen aslinya.
-17. 
-
-
-}
-17. j
-10. #mempelai .mempelaiPria: Selector ini mengatur tampilan untuk elemen dengan kelas .mempelaiPria yang berada dalam kontainer dengan id #mempelai.background-image: url(foto-mempelai-pria.jpg); mengatur gambar latar belakang untuk elemen ini menggunakan gambar dengan nama file foto-mempelai-pria.jpg. background-size: cover; mengatur gambar latar belakang agar menutupi seluruh area elemen, sehingga ukuran gambar akan disesuaikan dengan ukuran elemen.
+17. .lihat {selector ini mengatur tampilan untuk elemen dengan kelas "lihat" .didalam class"lihat" terdapat font-family: "Work Sans", sans-serif;: Properti ini mengatur jenis font teks dalam elemen-elemen dengan kelas "lihat.background-color: #717171;: Properti ini mengatur warna latar belakang elemen-elemen "lihat" menjadi abu-abu tua,border: none;: Properti ini menghilangkan border (garis tepi) dari elemen-elemen "lihacolor: whitesmoke;: Properti ini mengatur warna teks dalam elemen-elemen "lihat" menjadi putih asapt." Sehingga, elemen-elemen tersebut tidak akan memiliki garis tepi.padding: 20px 30px;: Properti ini mengatur spasi internal (padding) elemen-elemen "lihat." Padding horizontal adalah 20 piksel, dan padding vertikal adalah 30 piksel.text-decoration: none;: Properti ini menghilangkan dekorasi teks seperti garis bawah.font-size: 20px;: Properti ini mengatur ukuran font untuk teks dalam elemen-elemen "lihat." Ukuran fontnya adalah 20 piksel.margin: 4px 2px;: Properti ini mengatur margin (spasi eksternal) elemen-elemen "lihat." Margin horizontal adalah 4 piksel dan margin vertikal adalah 2 piksel. cursor: pointer;: Properti ini mengubah tampilan kursor mouse saat mengarahkan ke elemen "lihat" menjadi ikon tangan yang menunjukkan elemen tersebut dapat diklik.border-radius: 30px;: Properti ini mengatur radius sudut elemen-elemen "lihat" sebesar 30 piksel.
+18. #ungkapan {selector ini mengatur tampilan untuk elemen dengan atribut "ungkapan" . didalam atribut ini terdapat background-image: url(bg-5.jpg);: Properti ini mengatur gambar latar belakang elemen "ungkapan" dengan menggunakan gambar"bg-5.jpg."color: #0a0a0a;: Properti ini mengatur warna teks dalam elemen "ungkapan" menjadi hitam font-family: "Work Sans", sans-serif;: Properti ini mengatur jenis font teks dalam elemen "ungkapan."text-align: center;: Properti ini mengatur pemusat teks dalam elemen "ungkapan" secara horizontal.min-height: 100vh;: Properti ini mengatur tinggi elemen "ungkapan" menjadi 100vh,font-size: 26px;: Properti ini mengatur ukuran font untuk teks dalam elemen "ungkapan." Ukuran fontnya adalah 26 piksel.
+19. .kutipan { selector ini mengatur tampilan untuk elemen dengan class "kutipan" .didalam class "kutipan" terdapat padding: 9em;: Properti ini mengatur spasi internal (padding) elemen-elemen "kutipan" sebesar 9em position: absolute;: Properti ini mengatur posisi elemen-elemen "kutipan" menjadi posisi absolut.
+20. #mempelai {selector ini mengatur tampilan untuk elemen dengan atribut "Mempelai" . didalam atribut ini terdapat display: flex;: Properti ini mengatur tata letak elemen "mempelai" menjadi tata letak fleksibel (flex layout).justify-content: center;: Properti ini mengatur pemusatannya secara horizontal dengan menggeser elemen-elemen dalam elemen "mempelai" ke tengah horizontal. align-items: center;: Properti ini mengatur pemusatannya secara vertikal dengan menggeser elemen-elemen dalam elemen "mempelai" ke tengah vertikal.background-image: url(bg-5.jpg);: Properti ini mengatur gambar latar belakang elemen "mempelai" dengan menggunakan gambar "bg-5.jpg." min-height: 100vh;: Properti ini mengatur tinggi elemen "mempelai" menjadi 100vh
+21. #mempelai .mempelaiPria: Selector ini mengatur tampilan untuk elemen dengan kelas .mempelaiPria yang berada dalam kontainer dengan id #mempelai.background-image: url(foto-mempelai-pria.jpg); mengatur gambar latar belakang untuk elemen ini menggunakan gambar dengan nama file foto-mempelai-pria.jpg. background-size: cover; mengatur gambar latar belakang agar menutupi seluruh area elemen, sehingga ukuran gambar akan disesuaikan dengan ukuran elemen.
 width: 500px; mengatur lebar elemen menjadi 500 piksel.
 min-height: 80%; mengatur tinggi minimum elemen sebesar 80% dari tinggi elemen yang mengandungnya.
 display: flex; mengubah elemen menjadi elemen flexbox yang dapat digunakan untuk mengatur tata letak elemen-elemen anak secara lebih fleksibel.
@@ -423,7 +422,7 @@ text-align: center; mengatur teks dalam elemen agar berada di tengah.
 position: relative; mengatur elemen agar memiliki posisi relatif terhadap elemen yang memiliki id #mempelai.
 padding: 20px; memberikan ruang polos sebesar 20 piksel di sekitar elemen.
 border-radius: 0 125px 0 0; mengatur sudut elemen dengan radius berbeda untuk masing-masing sisi, yang sama seperti elemen .mempelaiPria. Ini membantu menciptakan efek visual yang seragam antara kedua
-11. #mempelai .mempelaiWanita: Selector ini mengatur tampilan untuk elemen dengan kelas .mempelaiWanita yang berada dalam kontainer dengan id #mempelai.
+22. #mempelai .mempelaiWanita: Selector ini mengatur tampilan untuk elemen dengan kelas .mempelaiWanita yang berada dalam kontainer dengan id #mempelai.
 background-image: url(foto-mempelai-wanita.jpg); mengatur gambar latar belakang untuk elemen ini menggunakan gambar dengan nama file foto-mempelai-wanita.jpg.
 background-size: cover; mengatur gambar latar belakang agar menutupi seluruh area elemen, sehingga ukuran gambar akan disesuaikan dengan ukuran elemen.
 width: 500px; mengatur lebar elemen menjadi 500 piksel.
@@ -439,7 +438,7 @@ background-color: #f7f1f1; mengatur warna latar belakang elemen.
 color: #0a0a0a; mengatur warna teks.
 opacity: 65%; mengatur tingkat keburaman elemen, dengan nilai 65%. Ini membuat elemen sedikit transparan.
 text-align: center; mengatur teks dalam elemen agar berada di tengah.
-12. #cerita: Ini mengatur tampilan elemen-elemen yang memiliki id #cerita, mungkin digunakan untuk halaman atau bagian cerita dalam sebuah website.
+23. #cerita: Ini mengatur tampilan elemen-elemen yang memiliki id #cerita, mungkin digunakan untuk halaman atau bagian cerita dalam sebuah website.
 font-family: "Work Sans", sans-serif; mengatur jenis font yang digunakan untuk teks dalam elemen ini.
 background-image: url(bgceritaa.jpg); mengatur gambar latar belakang elemen ini dengan gambar yang disebut "bgceritaa.jpg".
 background-size: cover; mengatur agar gambar latar belakang menutupi seluruh area elemen.
@@ -454,7 +453,7 @@ display: inline-block; mengatur elemen sebagai elemen inline-block.
 font-size: 30px; mengatur ukuran teks.
 font-weight: bold; mengatur ketebalan teks menjadi tebal (bold).
 margin: 4px 2px; mengatur margin di sekitar elemen.
-13. #galeri: Ini mengatur tampilan elemen-elemen yang memiliki id #galeri, mungkin digunakan untuk halaman atau bagian galeri dalam sebuah website.
+24. #galeri: Ini mengatur tampilan elemen-elemen yang memiliki id #galeri, mungkin digunakan untuk halaman atau bagian galeri dalam sebuah website.
 background-image: url(bgceritaa.jpg); mengatur gambar latar belakang elemen ini dengan gambar yang disebut "bgceritaa.jpg".
 background-size: cover; mengatur agar gambar latar belakang menutupi seluruh area elemen.
 display: flex; mengubah elemen ini menjadi elemen flexbox yang memungkinkan pengaturan tata letak elemen anak secara fleksibel.
@@ -476,7 +475,7 @@ kecil img: .kecil img mengatur tampilan gambar yang ada di dalam elemen dengan k
 width: 200px; mengatur lebar gambar menjadi 200 piksel.
 kecil img:hover: .kecil img:hover mengatur tampilan gambar ketika kursor mouse berada di atas gambar (saat sorotan).
 width: 250px; m
-14. #agenda: Ini mengatur tampilan elemen yang memiliki id #agenda, mungkin digunakan untuk halaman atau bagian agenda acara dalam sebuah website.
+25. #agenda: Ini mengatur tampilan elemen yang memiliki id #agenda, mungkin digunakan untuk halaman atau bagian agenda acara dalam sebuah website.
 height: 100vh; mengatur tinggi elemen agar selalu mengisi tinggi viewport (tinggi layar) secara penuh.
 background-image: url(denah.jpg); mengatur gambar latar belakang elemen ini dengan gambar yang disebut "denah.jpg".
 .acara: Ini mengatur tampilan elemen-elemen yang memiliki kelas .acara, yang mungkin digunakan untuk menampilkan informasi tentang acara dalam halaman agenda.
@@ -488,10 +487,8 @@ background-color: rgba(0, 0, 0, 0.5); mengatur warna latar belakang elemen denga
 display: flex; mengubah elemen-elemen ini menjadi elemen flexbox yang memungkinkan pengaturan tata letak elemen anak secara fleksibel.
 maps: .maps mengatur tampilan elemen-elemen dengan kelas .maps, yang mungkin digunakan untuk menampilkan peta atau denah dalam halaman web.
 .acara p: .acara p mengatur tampilan elemen-elemen p (paragraf) yang berada dalam elemen-elemen dengan kelas .acara. Ini mengubah gaya teks paragraf dalam konteks elemen acara.
-15. Styling inputs, selects, dan textareas: Bagian ini mengatur tampilan elemen-elemen input dengan tipe "text," elemen-elemen select, dan elemen-elemen textarea dalam halaman web.
+26. Styling inputs, selects, dan textareas: Bagian ini mengatur tampilan elemen-elemen input dengan tipe "text," elemen-elemen select, dan elemen-elemen textarea dalam halaman web.
 width: 100%; mengatur lebar elemen agar mengisi seluruh lebar yang tersedia.
-
-
 
    
 <h3>makasih.css</h3>
