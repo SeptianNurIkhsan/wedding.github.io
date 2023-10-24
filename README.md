@@ -141,7 +141,10 @@ Antarmuka  perangkat lunak dari undangan pernikahan digital berisi kan kedua nam
 <Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
 
 # Functional Requirement
-(persyaratan fungsional) adalah bagian penting dari spesifikasi perangkat lunak yang menggambarkan apa yang seharusnya dilakukan oleh perangkat lunak yang sedang dikembangkan. Ini menjelaskan perilaku dan fungsi yang diharapkan dari perangkat lunak. Fungsional requirements biasanya melibatkan apa yang harus dilakukan perangkat lunak dalam berbagai situasi dan kondisi. 
+1. Pengguna harus dapat membuka undangan
+2. Semua tombol harus dapat berfungsi dan menampilkan yang ingin dilihat pengguna
+3. Website harus mampu menerima dan menyimpan jawaban pengguna
+4. Notifikasi harus ditampilkan setelah pengguna mengisi jawaban
 
 ## Use Case Diagram
 ## Nama Use Case 1 
