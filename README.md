@@ -380,6 +380,19 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 <p>23. &lt;script src="index.js"&gt; : Ini menghubungkan halaman dengan berkas JavaScript eksternal bernama "index.js". Berkas ini mungkin digunakan untuk menambahkan perilaku interaktif ke dalam halaman web. </p>
 
 # 6.2 CSS
+
+<h3>style.css<h3>
+
+1. body { merupakan selector CSS yang merujuk kedalam "body" ddidalam body terdapat font-family: "Work Sans", sans-serif;: Ini mengatur jenis font yang akan digunakan untuk teks"font-size: 1.2rem;": Ini mengatur ukuran font yang akan digunakan dalam elemen "min-height: 100vh;" Ini mengatur tinggi minimum elemen "margin: 0"Ini menghapus margin luar (spasi) pada elemen "padding: 0;" Ini menghapus padding (spasi internal) pada elemen "ox-sizing: border-box;:"Ini mengatur model kotak (box model) elemen
+2. .cover { merupakan selector CSS yang merujuk kedalam class"cover" didalam class"cover terdapat "background: url(bg-2.jpg) no-repeat center center fixed;" Ini mengatur gambar latar belakang dengan URL "bg-2.jpg". Gambar ini akan diulang (no-repeat) dan ditempatkan di tengah (center center) elemen."-webkit-background-size: cover;"digunakan untuk mengatur ukuran gambar latar belakang untuk browser berbasis WebKit menjadi menutupi seluruh area elemen dengan latar belakang."-moz-background-size: cover;" Ini adalah properti yang serupa dengan yang sebelumnya, tetapi ditujukan untuk browser Mozilla (seperti Firefox)."-o-background-size: cover;" Ini adalah properti yang serupa dengan yang sebelumnya, tetapi ditujukan untuk browser Opera.
+3. .cover { merupakan selector CSS yang merujuk kedalam class"cover" didalam class"cover terdapat "min-height: 100vh;" Properti ini mengatur tinggi minimum elemen menjadi 100vh "color: seashell;"Properti ini mengatur warna teks dalam elemen ".cover" menjadi "seashell"padding: 0;" Properti ini menghapus spasi internal (padding) pada elemen."text-align: center;" Properti ini mengatur teks dalam elemen " display: flex;:" Properti ini mengubah tata letak elemen "justify-content: center;": Ini adalah properti CSS yang digunakan dalam tata letak flex untuk mengatur pemusatannya secara horizontal."line-height: 1rem;:" Properti ini mengatur jarak antara baris
+4. .cover h1 { merupakan selector CSS yang merujuk kedalam   tekt "h1" yang terdapat dalam class "cover" didalam h1 terdapat "font-family: "Sacramento", cursive;:"roperti ini mengatur jenis font yang akan digunakan untuk teks dalam elemen "font-size: 100px;: "Properti ini mengatur ukuran font untuk teks dalam elemen
+5. "* { padding: 0; margin: 0; } adalah aturan yang mengatur penghapusan padding (spasi internal) dan margin (spasi eksternal) default dari semua elemen di dalam halaman web.
+6. body::before { ni adalah pemilihan pseudo-elemen .didalam "body" terdapat "min-height: 100vh;:" Properti ini mengatur tinggi minimum dari pseudo-elemen ::before menjadi 100vh "background-size: cover;:" Properti ini mengatur ukuran gambar latar belakang background-position: center;: Properti ini mengatur posisi gambar latar belakang agar selalu terletak di tengah position: fixed;: Properti ini mengatur pseudo-elemen ::before agar memiliki posisi tetap ,top: 0;: Properti ini mengatur pseudo-elemen ::before agar terletak di bagian atas (tinggi 0) dari tampilan jendela browser.
+7. #navbarleft {merupakan selector CSS yang merujuk kedalam class"navbarleft"
+
+
+   
 <h3>makasih.css</h3>
 
 1. "#terimakasih {" merupakan selector CSS yang merujuk kedalam id "Terimakasih" didalam id ini terdapat "background-image: url(bgkayu.jpg);" yang mengatur background menjadi foto tersebut. "background-size: cover;" digunakan untuk memilih ukuran background."justify-content: center;"berguna untuk membuat text menjadi ke tengah " display: flex;" digunakan untuk membuat dispalay menjadi flex " height: 100vh;" berarti memiliki tinggi 100 vh.
