@@ -90,7 +90,7 @@ Platform website undangan digital adalah situs web yang dirancang khusus untuk m
 Platform website undangan digital  adalah situs website yang dirancang  untuk memungkinkan mahasiswa dapat menjual produk mereka. Platform website ini memfasilitasi transaksi jual beli antar mahasiswa khususnya mahasiswa Universitas Negeri Surabaya. Mahasiswa yang ingin menjual produk mereka dapat menambahkan produk mereka ke dalam pemilihan menu jual produk, mahasiswa dapat menambahkan nama produk,foto serta menetapkan harga untuk dijual. Sebaliknya mahasiswa yang ingin membeli produk maka mahasiswa tersebut dapat memilih menu beli untuk melihat berbagai macam produk yang dijual oleh sesama mahasiswa Universitas Negeri Surabaya. 
 
 
-##Fungsi Produk 
+## Fungsi Produk 
 Fungsi utama produk adalah memberikan fasilitas dan kemudahan bagi masyarakat.Dapat menyebar luas serta hemat biaya merupakan manfaat website ini.Website ini harus memberikan tampilan yang menarik sehingga pembaca tertarik untuk membukanya.Admin juga dapat memasukkan video atau foto sehingga pembaca dapat mengenali sang pengundang. 
 
 ## Penggolongan Karakteristik Pengguna
@@ -123,6 +123,7 @@ Website undangan pernikahan ini dapat diakses melalui berbagai sistem operasi di
 Website undangan pernikahan ini tidak bergantung pada komponen perangkat lunak lain yang perlu diinstal oleh pengguna. Namun, beberapa komponen berikut akan digunakan dalam pengembangan dan manajemen website
 Bahasa Pemrograman: Website ini dikembangkan menggunakan bahasa pemrograman seperti HTML dan CSS.
 Browser Web: Aplikasi ini bisa diakses melalui berbagai browser web populer seperti Google Chrome, Mozilla Firefox, Apple Safari, dan Microsoft Edge.
+
 ## Dokumentasi Pengguna
 <Daftar komponen dokumentasi pengguna (seperti user manual, online help, dan tutorial) yang akan disampaikan bersama dengan perangkat lunak yang akan dikirim>
 
@@ -146,16 +147,18 @@ Pembuatan website dikhususkan kepada seluruh tamu undangan . Untuk menjangkau we
 Antarmuka  perangkat lunak dari undangan pernikahan digital berisi kan kedua nama mempelai,tanggal pernikahan dan juga tombol "lihat Undangan" untuk masuk kedalam halaman utama.Pada halaman utama sendiri terdapat nama mempelai,foto kedua mempelai,tanggal pernikahan,tempat pernikahan,galeri,video prewedding,cerita yang mempertemukan mereka,konfirmasi kehadiran ,ucapan dan doa.Semuanya ditampilkan dengan menarik agar para tamu undangan tertarik untuk datang pada acara pernikahan tersebut.Antarmuka perangkat lunak ini berfungsi sebagai cover dari halaman utama.
 
 ## Communication Interface
-<Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
+1. Website harus berintegrasi dengan Google Sheets untuk menyimpan data kehadiran.
+2. Website harus mendukung API Google Maps agar mendukung denah lokasi.
+3. Website berkomunikasi menggunakan protokol HTTPS dari layanan GitHub.
 
-# Functional Requirement
+## Functional Requirement
 1. Pengguna harus dapat membuka undangan.
 2. Semua tombol harus dapat berfungsi dan menampilkan yang ingin dilihat pengguna.
 3. Website harus mampu menerima dan menyimpan jawaban pengguna.
 4. Notifikasi harus ditampilkan setelah pengguna mengisi jawaban.
 5. Backsound harus aktif ketika pengguna sudah membuka undangan.
 
-## Use Case Diagram
+# Use Case Diagram
 ## Use Case 1 
 Deskripsi Use Case
 	Dalam Use case diagram diatas menjelaskan 
@@ -169,7 +172,7 @@ Deskripsi Use Case
 Untuk penjelasan pada flowchart yang akan dilakukan adalah pertama tama pastinya terdapat start kemudian anda akan diminta untuk menekan link yang akan mengarahkan kepada website kami. Di Dalam website ini terdapat cover dan juga link untuk melihat undangan .jika anda ingin melihat undangan maka anda bisa menekan link “lihat undangan”kemudian anda akan diarahkan ke undangan yang berisi nama alamat acara tersebut serta tanggal acara.setelah anda melihat denah acara anda dapat melihat galeri galeri acara tersebut.kemudian anda bisa konfirmasi kehadiran anda melalui website tersebut.Selesai.
 
 
-## Non Functional Requirements
+# Non Functional Requirements
 Non-functional requirements (NFRs) dalam konteks website undangan pernikahan merujuk pada persyaratan yang tidak terkait langsung dengan fungsi utama atau perilaku perangkat lunak, tetapi memengaruhi kualitas, kinerja, dan pengalaman pengguna dari website tersebut
 
 | ID | Parameter | Kebutuhan |
