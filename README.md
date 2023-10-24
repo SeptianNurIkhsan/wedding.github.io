@@ -489,6 +489,17 @@ maps: .maps mengatur tampilan elemen-elemen dengan kelas .maps, yang mungkin dig
 .acara p: .acara p mengatur tampilan elemen-elemen p (paragraf) yang berada dalam elemen-elemen dengan kelas .acara. Ini mengubah gaya teks paragraf dalam konteks elemen acara.
 26. Styling inputs, selects, dan textareas: Bagian ini mengatur tampilan elemen-elemen input dengan tipe "text," elemen-elemen select, dan elemen-elemen textarea dalam halaman web.
 width: 100%; mengatur lebar elemen agar mengisi seluruh lebar yang tersedia.
+27. border: 1px solid #ccc; : Ini adalah aturan untuk elemen yang mengatur border (garis tepi) dengan lebar 1 piksel dan warna solid abu-abu (#ccc).
+28. border-radius: 4px; : Ini mengatur sudut elemen menjadi melengkung dengan jari-jari sudut 4 piksel, menciptakan tampilan sudut-sudut yang lebih lembut.
+29. box-sizing: border-box;: Mengatur kotak (box) elemen HTML sehingga padding dan border termasuk dalam lebar dan tingginya.
+30. margin-top: 6px; dan margin-bottom: 16px;: Menambahkan margin (ruang putih) di atas (top) dan di bawah (bottom) elemen, menciptakan ruang antara elemen dengan elemen lainnya.
+31. resize: vertical; : Mengizinkan pengguna untuk mengubah ukuran vertikal textarea (elemen input teks panjang) dengan menggeser sudut kanan bawah.
+32. Aturan berikutnya mengkustomisasi tampilan tombol submit (input[type="submit"]) dan mengatur latar belakang dan tampilan umum untuk elemen-elemen dengan kelas "rsvp".
+33. Aturan CSS untuk elemen-elemen dengan ID "video", "momen", "kehadiran", dan "ucapan" mengatur gambar latar belakang dan beberapa properti tampilan seperti warna teks, ukuran font, dan tata letak.
+34. Ada aturan khusus untuk elemen-elemen dalam elemen dengan ID "ucapan", seperti "komen", "doa", "scroll", dan "form". Ini mengkustomisasi tampilan elemen-elemen yang berbeda dalam hal latar belakang, warna, dan ukuran font.
+35. Aturan terakhir, textarea, button, dan input, mengatur lebar elemen input teks, tombol, dan textarea menjadi 100% sehingga mengisi lebar elemen induknya. Selain itu, margin-bottom diterapkan untuk memberikan jarak di antara elemen-elemen ini.
+35. #ucapan h3 mengatur tampilan elemen h3 di dalam elemen dengan ID "ucapan" dengan memberikan padding pada bagian bawahnya.
+
 
    
 <h3>makasih.css</h3>
