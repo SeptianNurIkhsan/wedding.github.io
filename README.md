@@ -128,7 +128,7 @@ Browser Web: Aplikasi ini bisa diakses melalui berbagai browser web populer sepe
 ![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%201.png)
 Pada tampilan awal ini terdiri nama mempelai,navbar dan juga tentang kami.Pada tampilan Navbar berisi tentang Foto kedua mempelai,Ungkapan,Maps,Galeri,Cerita kami dan juga terdapat fitur untuk memastikan musik.Pada tampilan ini anda harus menekan tombol lihat undangan jika ingin kehalaman utama.Setelah anda menekan tombol "Lihat Undangan" maka anda dapat menggeser cursor kehalaman bawah untuk melihat isi lebih lanjut.  
 ![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%202.png)
-Pada tampilan ini terdapat ayat suci alqur an beserta artinya yang bercerita tentang pernikahan  
+Pada tampilan ini terdapat ayat suci alqur an beserta artinya yang bercerita tentang pernikahan
 ![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%203.png)
 Pada tampilan ini berisi gambar dan Biodata tentang kedua mempelai 
 ![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%204.png)
@@ -140,10 +140,15 @@ Pada tampilan ini berisi galeri.Para tamu undangan dapat melihat gambar gambar y
 ![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%207.png)
 Tampilan ini akan menampilakn sebuah maps tempat acara .terdapat tanggal dan juga tempat acara berlangsung. 
 ![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%208.png)
+Pada tampilan iniberisikan tentang video kedua mempelai prewedding
 ![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%209.png)
+Pada tampilan ini berisi tentang Moment yang berbahagia
 ![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%2010.png)
+Pada tampilan ini berisi tentang konfirmasi kehadiran.terdapat tombol Konfirmasi kehadiran yang harus diisi oleh para tamu undangan
 ![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%2011.png)
+Pada tampilan ini anda diminta untuk memasukkan nama dan juga keterangan hadir atau tidak.Setelah anda mengonfirmasi kehadiran anda.anda dapat mengirimkannya dengan cara mengklik tombol berwarna biru.
 ![alt text](github.com/SeptianNurIkhsan/wedding.github.io/blob/main/web%2012.png)
+Pada tampilan ini berisi tentang ucapan dan doa dari para tamu undangan .Anda bisa menulis nama,Alamat dan ucapan yang anda inginkan pada kolom yang tersedia.
 
 # Kebutuhan Antarmuka Eksternal
 ## User Interfaces 
