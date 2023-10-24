@@ -275,7 +275,7 @@ Non-functional requirements (NFRs) dalam konteks website undangan pernikahan mer
 29.  
 
 
-<h3>.Kehadiran.html</h3>
+<h3>Kehadiran.html</h3>
 
 1. Mendeklarasikan &lt;!DOCTYPE html&gt;: menandakan bahwa dokumen adalah dokumen HTML.
 2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.
@@ -313,7 +313,30 @@ Non-functional requirements (NFRs) dalam konteks website undangan pernikahan mer
    c. Beberapa paragraf &lt;p&gt; yang berisi pesan ucapan terima kasih yang ditampilkan kepada pengguna. Pesan ini berisi penghargaan dan rasa terima kasih atas kontribusi dan dukungan pengguna.
 6. &lt;a class="tekan" href="index.html"&gt;Kembali&lt;/a&gt;: Membuat tautan (link) dengan teks "Kembali" yang mengarahkan pengguna kembali ke halaman "index.html" ketika diklik.
 
-<h3>html</h3>
+<h3>Cerita.html</h3>
+<p>1. &lt;!DOCTYPE html&gt; : Ini adalah deklarasi tipe dokumen HTML yang mendefinisikan jenis dokumen HTML yang digunakan.</p>
+<p>2. &lt;html lang="en"&gt; : Ini adalah elemen utama yang mengawali dokumen HTML. lang="en" menunjukkan bahwa bahasa yang digunakan dalam dokumen ini adalah bahasa Inggris.</p>
+<p>3. &lt;head&gt; : Ini adalah elemen kepala dari dokumen HTML yang berisi metadata, seperti karakter set, judul halaman, dan tautan ke berkas eksternal.</p>
+<p>4. &lt;meta charset="UTF-8"&gt; : Ini mengatur karakter set dokumen sebagai UTF-8, yang digunakan untuk mendukung karakter internasional.</p>
+<p>5. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Ini mengatur tampilan halaman agar sesuai dengan lebar perangkat dan tingkat perbesaran awalnya.</p>
+<p>6. &lt;title&gt;Cerita&lt;/title&gt; : Ini menetapkan judul halaman web yang akan ditampilkan di tab peramban pengguna.</p>
+<p>7. &lt;link rel="stylesheet" href="cerita.css"&gt; : Ini menghubungkan halaman dengan berkas CSS eksternal "cerita.css" yang akan digunakan untuk mengatur tampilan halaman.</p>
+<p>8. &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt; dan &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt; : Ini menunjukkan persiapan untuk menghubungkan ke server Google Fonts.</p>
+<p>9. &lt;link href=https://fonts.googleapis.com/css2?family=Sacramento&display=swap rel="stylesheet"&gt; : Ini menghubungkan halaman dengan berkas font dari Google Fonts bernama "Sacramento".</p>
+<p>10. &lt;link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@400;500;900&display=swap" rel="stylesheet"&gt; : Ini menghubungkan halaman dengan dua jenis font dari Google Fonts, "Sacramento" dan "Work Sans" dengan berat tertentu.</p>
+<p>11. &lt;style&gt; : Ini adalah elemen yang dapat digunakan untuk menuliskan aturan CSS langsung di dalam halaman HTML. Namun, dalam kode yang Anda berikan, elemen ini tidak memiliki aturan CSS apa pun. </p>
+<p>12. &lt;body&gt; : Ini adalah elemen yang menampung semua elemen yang akan ditampilkan di halaman web, seperti teks, gambar, dan elemen lainnya. </p>
+<p>13. &lt;div id="slideshow"&gt; : Ini adalah elemen div dengan atribut id "slideshow" yang digunakan untuk membuat wadah utama untuk elemen-elemen dalam slide show. </p>
+<p>14. &lt;div class="slide-wrapper"&gt; : Ini adalah elemen div dengan class "slide-wrapper" yang digunakan sebagai wadah untuk mengelompokkan elemen-elemen slide. </p>
+<p>15. &lt;div class="slide"&gt; : Ini adalah elemen div dengan class "slide" yang digunakan untuk menggambarkan slide pertama dalam slide show. </p>
+<p>16. &lt;div class="teks"&gt; : Ini adalah elemen div dengan class "teks" yang mengelompokkan teks dalam slide. </p>
+<p>17. &lt;h1&gt;Pertemuan&lt;/h1&gt; : Ini adalah elemen judul (h1) yang menampilkan teks "Pertemuan".</p>
+<p>18. &lt;p&gt;...: Ini adalah elemen paragraf (p) yang berisi cerita tentang pertemuan Kaesang dan Erina.</p>
+
+<H3>Info.html</H3>
+
+
+ 
 
 
 
