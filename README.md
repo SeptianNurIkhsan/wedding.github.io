@@ -270,9 +270,12 @@ Non-functional requirements (NFRs) dalam konteks website undangan pernikahan mer
 26. &lt;a class="button" href="Cerita.html"g &gt; Cerita kami &lt;/a &gt;
  &lt;H3 &gt;Index.Kehadiran</H3 &gt; menggunakan elemen "anchor" yang digunakan untuk membuat link yang mengarah kepada "cerita.html"
 27.   &gt;img class="active" src="foto-prewed-1.jpg" alt="1"&gt; digunakan untuk menampilkan gambar. kemudian memiliki atribut"class" dengan nilai "active" kemudian atribut"src" digunakan untuk  menentukan sumber gambar yang akan ditampilkan oleh elemen gambar.
-28.   &gt;img onmouseover="galeri(1)" src="foto-prewed-1.jpg" alt="1"&gt; 
-
-29.  
+28.  &gt;img onmouseover="galeri(1)" src="foto-prewed-1.jpg" alt="1"&gt; "img" Ini merupakan elemen image  dalam HTML yang digunakan untuk menampilkan gambar . Kemudian atribut "onmouseover" digunakan untuk membuat gambar yang disentuh oleh kursor mengalami pergerakan.
+29.  &lt;section id="agenda"&gt elemen "section" dengan atribut id dengan nilai agenda sebagai pembungkus terluar dari elemen elemen yang ada didalamnya
+30.  &lt;div class="desc"&gt; adalah elemen yang terdapat didalam elemen "section agenda" yang berisi jadwal dan juga tempat acara
+31.    &lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.071323981621!2d110.39959227461209!3d-7.782262677216929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59c29f13d139%3A0x38cd9f2273ec106e!2sPendopo%20Agung%20Royal%20Ambarrukmo!5e0!3m2!1sid!2sid!4v1696898494664!5m2!1sid!2sid"  width="500"  height="200"  style="border: 0;"  allowfullscreen=""  loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade"> &lt;/iframe&gt; "Iframe" digunakan untuk 
+menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam kasus ini menampilkan goggle maps dengan tinggi 200 pixel dan lebar 500pixel. kemudian menghilangkan border "i frame" "loading=lazy" berarti elemen ini hanya akan dimuat saat tampilan pengguna mendekati elemen tersebut, membantu menghemat waktu dan sumber daya jika elemen ini berada di luar jangkauan tampilan awal.
 
 
 <h3>Kehadiran.html</h3>
