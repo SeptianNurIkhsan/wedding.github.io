@@ -125,8 +125,15 @@ Bahasa Pemrograman: Website ini dikembangkan menggunakan bahasa pemrograman sepe
 Browser Web: Aplikasi ini bisa diakses melalui berbagai browser web populer seperti Google Chrome, Mozilla Firefox, Apple Safari, dan Microsoft Edge.
 
 ## Dokumentasi Pengguna
-<Daftar komponen dokumentasi pengguna (seperti user manual, online help, dan tutorial) yang akan disampaikan bersama dengan perangkat lunak yang akan dikirim>
-
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
 
 # Kebutuhan Antarmuka Eksternal
 ## User Interfaces 
