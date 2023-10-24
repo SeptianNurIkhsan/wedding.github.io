@@ -277,7 +277,42 @@ Non-functional requirements (NFRs) dalam konteks website undangan pernikahan mer
 
 <h3>.Kehadiran.html</h3>
 
-<h3>html</h3>
+1. Mendeklarasikan &lt;!DOCTYPE html&gt;: menandakan bahwa dokumen adalah dokumen HTML.
+2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.
+3. &lt;head&gt;: Bagian kepala dari dokumen HTML yang berisi informasi meta dan judul.
+   a. &lt;meta charset="UTF-8"&gt;: Menentukan bahwa dokumen menggunakan karakter set UTF-8, yang mencakup hampir semua karakter dari semua skrip yang saat ini ditulis dan yang pernah ada.
+   b. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: Menentukan bagaimana konten akan muncul pada perangkat berbasis web dan mobile.
+   c. &lt;title&gt;Formulir Kehadiran&lt;/title&gt;: Menentukan judul halaman web.
+   d. &lt;link rel="stylesheet" href="cerita.css"&gt;t: Menghubungkan halaman dengan file stylesheet "cerita.css" untuk mengatur tata letak dan gaya.
+4. &lt;body&gt;: Bagian tubuh dokumen HTML yang berisi konten yang akan ditampilkan di halaman web.
+5. &lt;div class="container"&gt;: Membuat div dengan kelas "container" untuk mengelompokkan elemen-elemen terkait bersama.
+6. &lt;h2&gt;Formulir Kehadiran&lt;/h2&gt;: Menampilkan judul "Formulir Kehadiran" di halaman web.
+7. &lt;form action="Konfirmasi Kehadiran.html" method="post"&gt;: Membuat formulir yang akan mengirimkan data ke halaman "Konfirmasi Kehadiran.html" menggunakan metode HTTP POST.
+8. &lt;div class="form-group"&gt;: Membuat div dengan kelas "form-group" untuk mengelompokkan elemen formulir bersama.
+   a. &lt;label for="nama"&gt;Nama:&lt;/label&gt;: Label untuk input nama.
+   b.&lt;input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda" required&gt;: Input teks yang memungkinkan pengguna memasukkan nama mereka, dengan atribut required yang menandakan bahwa bidang ini harus diisi sebelum formulir dikirim.
+9. &lt;div class="form-group"&gt;: Membuat div dengan kelas "form-group" untuk mengelompokkan elemen formulir bersama.
+   a. &lt;label&gt;Pilih Kehadiran:&lt;/label&gt;: Label untuk pilihan kehadiran.
+   b. &lt;label class="radio-label"&gt;&lt;input type="radio" name="kehadiran" value="hadir"&gt;Hadir&lt;/label&gt;: Opsi pertama untuk memilih kehadiran, dengan nilai "hadir".
+   c. &lt;label class="radio-label"&gt;&lt;input type="radio" name="kehadiran" value="tidak_hadir"&gt;Tidak Hadir&lt;/label&gt;: Opsi kedua untuk memilih ketidakhadiran, dengan nilai "tidak_hadir".
+10. &lt;button&gt; Kirim Sekarang &lt;/button&gt;: Tombol untuk mengirim formulir.
+
+<h3>Konfirmasi Kehadiranhtml</h3>
+
+1. &lt;!DOCTYPE html&gt;: Menandakan bahwa dokumen adalah dokumen HTML.
+2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.
+3. &lt;head&gt;: Bagian kepala dari dokumen HTML yang berisi informasi meta dan judul.
+   a. &lt;meta charset="UTF-8"&gt;: Menentukan bahwa dokumen menggunakan karakter set UTF-8.
+   b. &lt;meta name="viewport" content="width=&lt;device-width&gt;, initial-scale=1.0"&gt;: Terdapat kesalahan pada pengaturan viewport, karena harusnya &lt;device-width&gt; diganti dengan device-width tanpa tanda kurung sudut. Ini adalah konfigurasi viewport yang umum digunakan untuk mengatur tampilan halaman web di perangkat berbasis web dan mobile.
+   c. &lt;title&gt;Konfirmasi&lt;/title&gt;: Menentukan judul halaman web.
+   d. &lt;link rel="stylesheet" href="makasih-1.css"&gt;: Menghubungkan halaman dengan file stylesheet "makasih-1.css" untuk mengatur tata letak dan gaya.
+4. &lt;body&gt;: Bagian tubuh dokumen HTML yang berisi konten yang akan ditampilkan di halaman web.
+5. &lt;section id="terimakasih"&gt;: Membuat sebuah bagian dengan ID "terimakasih" untuk mengelompokkan konten terkait bersama.
+   a. &lt;div class="imbal"&gt;: Membuat div dengan kelas "imbal" untuk mengelompokkan pesan ucapan terima kasih bersama.
+   b. &lt;h1&gt;&lt;b&gt;Terima Kasih&lt;/b&gt;&lt;/h1&gt;: Menampilkan judul besar "Terima Kasih" dengan teks yang dicetak tebal (bold).
+   c. Beberapa paragraf &lt;p&gt; yang berisi pesan ucapan terima kasih yang ditampilkan kepada pengguna. Pesan ini berisi penghargaan dan rasa terima kasih atas kontribusi dan dukungan pengguna.
+6. &lt;a class="tekan" href="index.html"&gt;Kembali&lt;/a&gt;: Membuat tautan (link) dengan teks "Kembali" yang mengarahkan pengguna kembali ke halaman "index.html" ketika diklik.
+
 <h3>html</h3>
 
 
