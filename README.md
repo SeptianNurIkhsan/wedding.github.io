@@ -394,7 +394,90 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 6. body::before { ni adalah pemilihan pseudo-elemen .didalam "body" terdapat "min-height: 100vh;:" Properti ini mengatur tinggi minimum dari pseudo-elemen ::before menjadi 100vh "background-size: cover;:" Properti ini mengatur ukuran gambar latar belakang background-position: center;: Properti ini mengatur posisi gambar latar belakang agar selalu terletak di tengah position: fixed;: Properti ini mengatur pseudo-elemen ::before agar memiliki posisi tetap ,top: 0;: Properti ini mengatur pseudo-elemen ::before agar terletak di bagian atas (tinggi 0) dari tampilan jendela browser.
 7. #navbarleft {merupakan selector CSS yang merujuk kedalam class"navbarleft".didalam navbar left terdapat width: 100px;Properti ini mengatur lebar elemen "navbarleft" menjadi 100 piksel.,position: fixed;: Properti ini mengatur elemen "navbarleft" menjadi elemen dengan posisi tetap (fixed),background-color: #717171;: Properti ini mengatur warna latar belakang elemen "navbarleft" menjadi abu-abu ,top: 50%;: Properti ini mengatur posisi atas elemen "navbarleft" agar berada di tengah vertikal halaman (50% dari atas).padding: 20px;: Properti ini mengatur spasi internal (padding) elemen "navbarleft" sebanyak 20 piksel,width: fit-content;: Properti ini mengatur lebar elemen "navbarleft" agar sesuai dengan kontennya. Ini akan membuat lebar elemen menyesuaikan dengan teks atau elemen-elemen di dalamnya,border-radius: 25px;: Properti ini mengatur sudut elemen "navbarleft" sehingga memiliki radius sudut sebesar 25 piksel. Ini memberikan elemen tampilan dengan sudut yang melengkung.z-index: 1000;: Properti ini mengatur indeks-z (z-index) elemen "navbarleft" menjadi 1000.
 8. #navbarleft ul {merupakan selector CSS yang merujuk kedalam elemen "ul" yang terdapat dalam class"navbarleft didalam navbar left  ul terdapat height: 10em;: Properti ini mengatur tinggi elemen "ul" menjadi 10 em ,display: flex;: Properti ini mengatur tata letak elemen menjadi flexsibel,justify-content: space-around;: Properti ini mengatur pemusatannya secara horizontal dengan memberikan spasi sekitar elemen-elemen dalam elemen,flex-direction: column;: Properti ini mengatur arah elemen-elemen dalam elemen menjadi columntext-align: center;: ,Properti ini mengatur pemusatannya secara horizontal (teks) untuk teks dalam elemen
-9. 
+9. #mempelai .mempelaiPria: Selector ini mengatur tampilan untuk elemen dengan kelas .mempelaiPria yang berada dalam kontainer dengan id #mempelai.background-image: url(foto-mempelai-pria.jpg); mengatur gambar latar belakang untuk elemen ini menggunakan gambar dengan nama file foto-mempelai-pria.jpg. background-size: cover; mengatur gambar latar belakang agar menutupi seluruh area elemen, sehingga ukuran gambar akan disesuaikan dengan ukuran elemen.
+width: 500px; mengatur lebar elemen menjadi 500 piksel.
+min-height: 80%; mengatur tinggi minimum elemen sebesar 80% dari tinggi elemen yang mengandungnya.
+display: flex; mengubah elemen menjadi elemen flexbox yang dapat digunakan untuk mengatur tata letak elemen-elemen anak secara lebih fleksibel.
+flex-direction: column; mengatur arah tata letak elemen-elemen anak ke dalam kolom.
+justify-content: end; mengatur elemen-elemen anak untuk ditempatkan di akhir elemen utama, sehingga mereka akan berada di bagian bawah elemen
+border-radius: 0 125px 0 0; mengatur sudut elemen dengan radius berbeda untuk masing-masing sisi. Di sini, sisi kanan atas dan kiri atas elemen memiliki radius sudut sebesar 125 piksel.
+position: absolute; mengatur elemen agar memiliki posisi absolute, sehingga elemen ini ditempatkan relatif terhadap elemen yang memiliki posisi non-static. Dalam hal ini, elemen ini ditempatkan relatif terhadap elemen dengan id #mempelai.
+left: 0; mengatur elemen agar terletak di sisi kiri elemen yang memiliki id #mempelai.
+background-color: #f7f1f1; mengatur warna latar belakang elemen.
+color: #0a0a0a; mengatur warna teks.
+opacity: 65%; mengatur tingkat keburaman elemen, dengan nilai 65%. Ini membuat elemen sedikit transparan.
+text-align: center; mengatur teks dalam elemen agar berada di tengah.
+position: relative; mengatur elemen agar memiliki posisi relatif terhadap elemen yang memiliki id #mempelai.
+padding: 20px; memberikan ruang polos sebesar 20 piksel di sekitar elemen.
+border-radius: 0 125px 0 0; mengatur sudut elemen dengan radius berbeda untuk masing-masing sisi, yang sama seperti elemen .mempelaiPria. Ini membantu menciptakan efek visual yang seragam antara kedua
+10. #mempelai .mempelaiWanita: Selector ini mengatur tampilan untuk elemen dengan kelas .mempelaiWanita yang berada dalam kontainer dengan id #mempelai.
+background-image: url(foto-mempelai-wanita.jpg); mengatur gambar latar belakang untuk elemen ini menggunakan gambar dengan nama file foto-mempelai-wanita.jpg.
+background-size: cover; mengatur gambar latar belakang agar menutupi seluruh area elemen, sehingga ukuran gambar akan disesuaikan dengan ukuran elemen.
+width: 500px; mengatur lebar elemen menjadi 500 piksel.
+min-height: 80%; mengatur tinggi minimum elemen sebesar 80% dari tinggi elemen yang mengandungnya.
+display: flex; mengubah elemen menjadi elemen flexbox yang dapat digunakan untuk mengatur tata letak elemen-elemen anak secara lebih fleksibel.
+flex-direction: column; mengatur arah tata letak elemen-elemen anak ke dalam kolom.
+justify-content: end; mengatur elemen-elemen anak untuk ditempatkan di akhir elemen utama, sehingga mereka akan berada di bagian bawah elemen
+mempelaiWanita.
+border-radius: 125px 0 0 0; mengatur sudut elemen dengan radius berbeda untuk masing-masing sisi. Di sini, sisi kiri atas elemen memiliki radius sudut sebesar 125 piksel.
+position: absolute; mengatur elemen agar memiliki posisi absolute, sehingga elemen ini ditempatkan relatif terhadap elemen yang memiliki posisi non-static. Dalam hal ini, elemen ini ditempatkan relatif terhadap elemen dengan id #mempelai.
+right: 0; mengatur elemen agar terletak di sisi kanan elemen yang memiliki id #mempelai
+background-color: #f7f1f1; mengatur warna latar belakang elemen.
+color: #0a0a0a; mengatur warna teks.
+opacity: 65%; mengatur tingkat keburaman elemen, dengan nilai 65%. Ini membuat elemen sedikit transparan.
+text-align: center; mengatur teks dalam elemen agar berada di tengah.
+11. #cerita: Ini mengatur tampilan elemen-elemen yang memiliki id #cerita, mungkin digunakan untuk halaman atau bagian cerita dalam sebuah website.
+font-family: "Work Sans", sans-serif; mengatur jenis font yang digunakan untuk teks dalam elemen ini.
+background-image: url(bgceritaa.jpg); mengatur gambar latar belakang elemen ini dengan gambar yang disebut "bgceritaa.jpg".
+background-size: cover; mengatur agar gambar latar belakang menutupi seluruh area elemen.
+Ini mengatur tampilan elemen-elemen yang memiliki kelas .button, yang mungkin digunakan untuk menampilkan tombol-tombol atau tautan pada halaman cerita.
+background-color: #717171; mengatur warna latar belakang elemen dengan kode warna "#717171".
+border: none; menghilangkan garis tepi (border) dari elemen.
+color: whitesmoke; mengatur warna teks menjadi putih.
+padding: 20px 34px; mengatur jarak antara teks dan tepi elemen.
+text-align: center; mengatur teks dalam elemen agar berada di tengah.
+text-decoration: none; menghilangkan dekorasi teks seperti garis bawah dari tautan.
+display: inline-block; mengatur elemen sebagai elemen inline-block.
+font-size: 30px; mengatur ukuran teks.
+font-weight: bold; mengatur ketebalan teks menjadi tebal (bold).
+margin: 4px 2px; mengatur margin di sekitar elemen.
+12. #galeri: Ini mengatur tampilan elemen-elemen yang memiliki id #galeri, mungkin digunakan untuk halaman atau bagian galeri dalam sebuah website.
+background-image: url(bgceritaa.jpg); mengatur gambar latar belakang elemen ini dengan gambar yang disebut "bgceritaa.jpg".
+background-size: cover; mengatur agar gambar latar belakang menutupi seluruh area elemen.
+display: flex; mengubah elemen ini menjadi elemen flexbox yang memungkinkan pengaturan tata letak elemen anak secara fleksibel.
+flex-direction: column; mengatur arah tata letak elemen-elemen anak ke dalam kolom.
+justify-content: space-between; mengatur elemen-elemen anak agar ditempatkan secara merata di antara elemen lain. Ini dapat menghasilkan tata letak vertikal yang merata untuk elemen-elemen anak.
+.besar: .besar mengatur tampilan elemen-elemen besar dalam galeri gambar.
+align-items: center; mengatur elemen-elemen anak untuk ditempatkan di tengah secara vertikal dalam elemen .besar.
+width: 100%; mengatur lebar elemen agar seluruh lebar tersedia digunakan.
+height: 68%; mengatur tinggi elemen sebesar 68% dari tinggi elemen yang mengandungnya.
+besar img: .besar img mengatur tampilan gambar yang ada di dalam elemen dengan kelas .besar.
+height: 600px; mengatur tinggi gambar menjadi 600 piksel.
+width: 800px; mengatur lebar gambar menjadi 800 piksel.
+besar img.active: .besar img.active mengatur tampilan gambar yang memiliki kelas .active dalam elemen dengan kelas .besar.
+display: block; mengatur gambar dengan kelas .active agar terlihat (muncul).
+.kecil: .kecil mengatur tampilan elemen-elemen kecil dalam galeri gambar.
+align-items: center; mengatur elemen-elemen anak untuk ditempatkan di tengah secara vertikal dalam elemen .kecil.
+width: 100%; mengatur lebar elemen agar seluruh lebar tersedia digunakan.
+kecil img: .kecil img mengatur tampilan gambar yang ada di dalam elemen dengan kelas .kecil.
+width: 200px; mengatur lebar gambar menjadi 200 piksel.
+kecil img:hover: .kecil img:hover mengatur tampilan gambar ketika kursor mouse berada di atas gambar (saat sorotan).
+width: 250px; m
+13. #agenda: Ini mengatur tampilan elemen yang memiliki id #agenda, mungkin digunakan untuk halaman atau bagian agenda acara dalam sebuah website.
+height: 100vh; mengatur tinggi elemen agar selalu mengisi tinggi viewport (tinggi layar) secara penuh.
+background-image: url(denah.jpg); mengatur gambar latar belakang elemen ini dengan gambar yang disebut "denah.jpg".
+.acara: Ini mengatur tampilan elemen-elemen yang memiliki kelas .acara, yang mungkin digunakan untuk menampilkan informasi tentang acara dalam halaman agenda.
+flex: 1; mengatur elemen-elemen dengan kelas .acara agar memenuhi sebagian besar ruang yang tersedia dalam elemen yang memiliki id #agenda.
+display: flex; mengubah elemen-elemen ini menjadi elemen flexbox yang memungkinkan pengaturan tata letak elemen anak secara fleksibel.
+desc: .desc mengatur tampilan elemen-elemen dengan kelas .desc, yang mungkin digunakan untuk deskripsi atau informasi dalam halaman atau bagian tertentu dari situs web.
+background-color: rgba(0, 0, 0, 0.5); mengatur warna latar belakang elemen dengan efek transparansi. Warna latar belakang adalah warna hitam (RGB 0, 0, 0) dengan tingkat keburaman sebesar 0.5. Ini menciptakan latar belakang hitam yang agak transparan.
+.denah: .denah mengatur tampilan elemen-elemen dengan kelas .denah, yang mungkin digunakan untuk menampilkan peta atau denah dalam halaman atau bagian tertentu dari situs web.
+display: flex; mengubah elemen-elemen ini menjadi elemen flexbox yang memungkinkan pengaturan tata letak elemen anak secara fleksibel.
+maps: .maps mengatur tampilan elemen-elemen dengan kelas .maps, yang mungkin digunakan untuk menampilkan peta atau denah dalam halaman web.
+.acara p: .acara p mengatur tampilan elemen-elemen p (paragraf) yang berada dalam elemen-elemen dengan kelas .acara. Ini mengubah gaya teks paragraf dalam konteks elemen acara.
+14. Styling inputs, selects, dan textareas: Bagian ini mengatur tampilan elemen-elemen input dengan tipe "text," elemen-elemen select, dan elemen-elemen textarea dalam halaman web.
+width: 100%; mengatur lebar elemen agar mengisi seluruh lebar yang tersedia.
+
 
 
    
@@ -483,24 +566,23 @@ background-color: azure;"kemudian background color digunakan untuk memilih warna
 
 <h3>cerita.css</h3>
 
-<p>font-family: "Work Sans", sans-serif; font-size: 1.2rem; Mengatur jenis font, ukuran font, dan beberapa properti lain untuk elemen-elemen dalam body. min-height: 100vh; mengatur tinggi minimum halaman (viewport height) agar selalu mengisi tinggi layar. margin dan padding diatur ke nol untuk menghilangkan margin dan padding default.</p>
-<p>#slideshow Mengatur tampilan elemen dengan id "slideshow" yang mungkin merupakan wadah untuk slide show. overflow: hidden; akan memastikan bahwa konten yang melebihi batas wadah tidak terlihat. height: 100vh; width: 100%; Mengatur tinggi dan lebar elemen "slideshow" ke tinggi viewport (100vh) dan lebar 100%.margin: 0 auto; mengatur elemen tengah di tengah halaman. .slide Mengatur tampilan elemen dengan kelas "slide" yang mungkin merupakan setiap slide dalam slide show. float: left; mengatur agar elemen-elemen slide berada dalam satu baris horizontal. height: 100vh; width: calc(100% / 3); Mengatur tinggi elemen slide menjadi 100vh (tinggi viewport) dan lebar menjadi 1/3 dari lebar viewport (tinggi viewport dibagi 3). display: flex;, justify-content: center;, dan align-items: center; digunakan untuk membuat konten dalam slide berada di tengah (horisontal dan vertikal). Mengatur tampilan elemen dengan kelas "slide-wrapper" yang mungkin berisi semua slide dalam slide show. width: calc(100% * 3); mengatur lebar elemen menjadi 3 kali lebar viewport, sehingga semua slide tergabung dalam satu "wrapper". animation: slide 15s ease infinite; mengatur animasi yang disebut "slide" dengan durasi 15 detik dan diulang terus menerus (infinite). Mengatur tampilan slide individual dengan kelas "slide" menggunakan pseudo-class :nth-child untuk mengidentifikasi urutan slide. Setiap slide memiliki gambar latar belakang dan warna teks. z-index mengatur kedalaman tumpukan (z-index) elemen, yang digunakan untuk mengontrol tumpukan elemen yang tumpang tindih.</p>
-<p>background-size: cover; digunakan untuk memastikan bahwa gambar latar belakang mengisi seluruh area slide dengan proporsi yang benar.</p>
-<p>background-image: url(bg-6.jpg); Menetapkan latar belakang dengan gambar.</p>
-<p>.container Mengatur tampilan kontainer 
+<p>1. font-family: "Work Sans", sans-serif; font-size: 1.2rem; Mengatur jenis font, ukuran font, dan beberapa properti lain untuk elemen-elemen dalam body. min-height: 100vh; mengatur tinggi minimum halaman (viewport height) agar selalu mengisi tinggi layar. margin dan padding diatur ke nol untuk menghilangkan margin dan padding default.</p>
+<p>2. #slideshow Mengatur tampilan elemen dengan id "slideshow" yang mungkin merupakan wadah untuk slide show. overflow: hidden; akan memastikan bahwa konten yang melebihi batas wadah tidak terlihat. height: 100vh; width: 100%; Mengatur tinggi dan lebar elemen "slideshow" ke tinggi viewport (100vh) dan lebar 100%.margin: 0 auto; mengatur elemen tengah di tengah halaman. .slide Mengatur tampilan elemen dengan kelas "slide" yang mungkin merupakan setiap slide dalam slide show. float: left; mengatur agar elemen-elemen slide berada dalam satu baris horizontal. height: 100vh; width: calc(100% / 3); Mengatur tinggi elemen slide menjadi 100vh (tinggi viewport) dan lebar menjadi 1/3 dari lebar viewport (tinggi viewport dibagi 3). display: flex;, justify-content: center;, dan align-items: center; digunakan untuk membuat konten dalam slide berada di tengah (horisontal dan vertikal). Mengatur tampilan elemen dengan kelas "slide-wrapper" yang mungkin berisi semua slide dalam slide show. width: calc(100% * 3); mengatur lebar elemen menjadi 3 kali lebar viewport, sehingga semua slide tergabung dalam satu "wrapper". animation: slide 15s ease infinite; mengatur animasi yang disebut "slide" dengan durasi 15 detik dan diulang terus menerus (infinite). Mengatur tampilan slide individual dengan kelas "slide" menggunakan pseudo-class :nth-child untuk mengidentifikasi urutan slide. Setiap slide memiliki gambar latar belakang dan warna teks. z-index mengatur kedalaman tumpukan (z-index) elemen, yang digunakan untuk mengontrol tumpukan elemen yang tumpang tindih.</p>
+<p>3. background-size: cover; digunakan untuk memastikan bahwa gambar latar belakang mengisi seluruh area slide dengan proporsi yang benar.background-image: url(bg-6.jpg); Menetapkan latar belakang dengan gambar.</p>
+<p>4. .container Mengatur tampilan kontainer 
 min-width: 400px; mengatur lebar minimum kontainer.
 margin: 0; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); justify-content: center; align-items: center; opacity: 80%; Mengatur margin, padding, warna latar belakang, sudut bulat (border-radius), dan bayangan (box-shadow).
 h2 text-align: center; Mengatur tampilan judul h2 agar berada di tengah (center).</p>
 .form-group margin-bottom: 20px; padding: 0px 24px; Mengatur tampilan grup elemen formulir, termasuk margin bawah dan padding.
-<p>(label) display: block; margin-bottom: 2px; Mengatur tampilan label formulir, termasuk menampilkan sebagai blok dan margin bawah.
+<p>5. (label) display: block; margin-bottom: 2px; Mengatur tampilan label formulir, termasuk menampilkan sebagai blok dan margin bawah.
 input[type="text"] Mengatur tampilan input teks dalam formulir.
 width: 100%; Lebar input diatur 100% sehingga mengisi seluruh lebar kontainer.
 padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; Padding, margin bawah, dan properti lainnya juga ditetapkan.</p>
-<p>label.radio-label adalah sebuah selector CSS yang digunakan untuk mengatur tampilan label yang terkait dengan elemen radio.
+<p>6. label.radio-label adalah sebuah selector CSS yang digunakan untuk mengatur tampilan label yang terkait dengan elemen radio.
 display: inline-block; mengubah tampilan label tersebut agar tampil sebagai elemen berblok secara horizontal. Dengan kata lain, label-label radio ini akan ditampilkan dalam satu baris horizontal yang sama.
 input[type="radio"] adalah selector CSS yang digunakan untuk mengatur tampilan elemen radio.
 margin-right: 5px; mengatur margin sebelah kanan (jarak antara elemen radio dan elemen berikutnya) sebesar 5 piksel. Ini digunakan untuk memberikan sedikit ruang antara elemen radio dan elemen.</p>
-<p>button digunakan untuk mengatur tampilan semua elemen tombol (button) pada halaman.
+<p>7. button digunakan untuk mengatur tampilan semua elemen tombol (button) pada halaman.
 background-color: #303031; mengatur warna latar belakang tombol
 color: #fff; mengatur warna teks di dalam tombol
 padding: 10px 20px; mengatur jarak antara teks dan tepi tombol. Padding sebelah atas dan bawah adalah 10 piksel, sementara padding sebelah kiri dan kanan adalah 20 piksel. Ini memberikan elemen tombol ukuran yang sesuai.
