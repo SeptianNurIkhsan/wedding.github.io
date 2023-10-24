@@ -388,6 +388,35 @@ background-color: azure;"kemudian background color digunakan untuk memilih warna
 3. ".imbal h1 {" merupakan selector CSS yang merujuk kedalam   tekt "h1" yang terdapat dalam class "imbal"."font-size: 44px;" memiliki ukuran 44 px .'font-family:sans-serif"digunakan untuk memiilih jenis font yang kita mau
 4." .tekan { "merupakan selector CSS yang merujuk kedalam class "Tekan" didalam selector ini terdapat " background-color:azure;" digunakan untuk mengatur warna background" "opacity: 70%;" diguanakan untuk mengatur tingkat opacity. "border: none;" digunakan untuk mengatur border .border=none berarti emnghilangkan border. "padding: 15px 20px;" memiliki padding 15 px dan 20px."text-decoration: none;"digunakan untuk menghilangkan baris pada bawah "text.cursor: pointer;"memberikan petunjuk visual kepada pengguna bahwa elemen tersebuut adalah suatu tautan "   text-align: center;" membuat text menjadi ketengah ."margin-top: 6em;"membuat text menjadi memiliki jarak ke atas sebesar 6 em.
 
+<h3>cerita.css</h3>
+
+<p>font-family: "Work Sans", sans-serif; font-size: 1.2rem; Mengatur jenis font, ukuran font, dan beberapa properti lain untuk elemen-elemen dalam body. min-height: 100vh; mengatur tinggi minimum halaman (viewport height) agar selalu mengisi tinggi layar. margin dan padding diatur ke nol untuk menghilangkan margin dan padding default.</p>
+<p>#slideshow Mengatur tampilan elemen dengan id "slideshow" yang mungkin merupakan wadah untuk slide show. overflow: hidden; akan memastikan bahwa konten yang melebihi batas wadah tidak terlihat. height: 100vh; width: 100%; Mengatur tinggi dan lebar elemen "slideshow" ke tinggi viewport (100vh) dan lebar 100%.margin: 0 auto; mengatur elemen tengah di tengah halaman. .slide Mengatur tampilan elemen dengan kelas "slide" yang mungkin merupakan setiap slide dalam slide show. float: left; mengatur agar elemen-elemen slide berada dalam satu baris horizontal. height: 100vh; width: calc(100% / 3); Mengatur tinggi elemen slide menjadi 100vh (tinggi viewport) dan lebar menjadi 1/3 dari lebar viewport (tinggi viewport dibagi 3). display: flex;, justify-content: center;, dan align-items: center; digunakan untuk membuat konten dalam slide berada di tengah (horisontal dan vertikal). Mengatur tampilan elemen dengan kelas "slide-wrapper" yang mungkin berisi semua slide dalam slide show. width: calc(100% * 3); mengatur lebar elemen menjadi 3 kali lebar viewport, sehingga semua slide tergabung dalam satu "wrapper". animation: slide 15s ease infinite; mengatur animasi yang disebut "slide" dengan durasi 15 detik dan diulang terus menerus (infinite). Mengatur tampilan slide individual dengan kelas "slide" menggunakan pseudo-class :nth-child untuk mengidentifikasi urutan slide. Setiap slide memiliki gambar latar belakang dan warna teks. z-index mengatur kedalaman tumpukan (z-index) elemen, yang digunakan untuk mengontrol tumpukan elemen yang tumpang tindih.</p>
+<p>background-size: cover; digunakan untuk memastikan bahwa gambar latar belakang mengisi seluruh area slide dengan proporsi yang benar.</p>
+<p>background-image: url(bg-6.jpg); Menetapkan latar belakang dengan gambar.</p>
+<p>.container Mengatur tampilan kontainer 
+min-width: 400px; mengatur lebar minimum kontainer.
+margin: 0; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); justify-content: center; align-items: center; opacity: 80%; Mengatur margin, padding, warna latar belakang, sudut bulat (border-radius), dan bayangan (box-shadow).
+h2 text-align: center; Mengatur tampilan judul h2 agar berada di tengah (center).</p>
+.form-group margin-bottom: 20px; padding: 0px 24px; Mengatur tampilan grup elemen formulir, termasuk margin bawah dan padding.
+<p>(label) display: block; margin-bottom: 2px; Mengatur tampilan label formulir, termasuk menampilkan sebagai blok dan margin bawah.
+input[type="text"] Mengatur tampilan input teks dalam formulir.
+width: 100%; Lebar input diatur 100% sehingga mengisi seluruh lebar kontainer.
+padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; Padding, margin bawah, dan properti lainnya juga ditetapkan.</p>
+<p>label.radio-label adalah sebuah selector CSS yang digunakan untuk mengatur tampilan label yang terkait dengan elemen radio.
+display: inline-block; mengubah tampilan label tersebut agar tampil sebagai elemen berblok secara horizontal. Dengan kata lain, label-label radio ini akan ditampilkan dalam satu baris horizontal yang sama.
+input[type="radio"] adalah selector CSS yang digunakan untuk mengatur tampilan elemen radio.
+margin-right: 5px; mengatur margin sebelah kanan (jarak antara elemen radio dan elemen berikutnya) sebesar 5 piksel. Ini digunakan untuk memberikan sedikit ruang antara elemen radio dan elemen.</p>
+<p>button digunakan untuk mengatur tampilan semua elemen tombol (button) pada halaman.
+background-color: #303031; mengatur warna latar belakang tombol
+color: #fff; mengatur warna teks di dalam tombol
+padding: 10px 20px; mengatur jarak antara teks dan tepi tombol. Padding sebelah atas dan bawah adalah 10 piksel, sementara padding sebelah kiri dan kanan adalah 20 piksel. Ini memberikan elemen tombol ukuran yang sesuai.
+border: none; menghilangkan semua border (garis tepi) dari tombol. Sehingga, tombol tidak memiliki garis tepi.
+border-radius: 4px; mengatur sudut bulat pada tombol dengan radius 4 piksel. Ini memberikan sudut tombol yang sedikit membulat.
+cursor: pointer; mengubah ikon kursor mouse saat berada di atas tombol menjadi tanda panah (pointer), menunjukkan bahwa tombol ini dapat diklik.
+display: flex; mengubah elemen tombol menjadi elemen fleksibel (flex element) yang memungkinkan pengaturan lebih lanjut dengan tata letak fleksibel.
+justify-content: right; tampaknya ada kesalahan dalam aturan ini. Seharusnya "right" adalah salah satu nilai dari "justify-content" yang digunakan untuk mengatur perataan elemen-elemen dalam sebuah kontainer fleksibel. Namun, "right" biasanya tidak digunakan. Anda mungkin ingin menggantinya dengan "center" atau "flex-end" jika tujuannya adalah perataan ke tengah atau ke kanan.
+align-items: center; yang mengatur elemen atau kelas ".button" untuk memiliki perataan elemen anak ke tengah secara vertikal dalam kontainer flex.</p>
 
 
 
