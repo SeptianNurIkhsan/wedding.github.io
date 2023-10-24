@@ -388,6 +388,81 @@ background-color: azure;"kemudian background color digunakan untuk memilih warna
 3. ".imbal h1 {" merupakan selector CSS yang merujuk kedalam   tekt "h1" yang terdapat dalam class "imbal"."font-size: 44px;" memiliki ukuran 44 px .'font-family:sans-serif"digunakan untuk memiilih jenis font yang kita mau
 4." .tekan { "merupakan selector CSS yang merujuk kedalam class "Tekan" didalam selector ini terdapat " background-color:azure;" digunakan untuk mengatur warna background" "opacity: 70%;" diguanakan untuk mengatur tingkat opacity. "border: none;" digunakan untuk mengatur border .border=none berarti emnghilangkan border. "padding: 15px 20px;" memiliki padding 15 px dan 20px."text-decoration: none;"digunakan untuk menghilangkan baris pada bawah "text.cursor: pointer;"memberikan petunjuk visual kepada pengguna bahwa elemen tersebuut adalah suatu tautan "   text-align: center;" membuat text menjadi ketengah ."margin-top: 6em;"membuat text menjadi memiliki jarak ke atas sebesar 6 em.
 
+<H3>tentang.css</H3>
+<p>1. #navbar: Ini adalah selector CSS yang mengarah pada elemen dengan ID "navbar" dalam dokumen HTML Anda. Ini adalah bagian dari tampilan header atau menu. </p>
+<p>2. background-color: dimgrey; : Mengatur warna latar belakang menjadi abu-abu gelap (dimgrey). </p>
+<p>3. display: flex; : Mengubah tampilan elemen menjadi tampilan fleksibel sehingga elemen-elemen anaknya dapat diatur dalam satu baris atau satu kolom, tergantung pada konfigurasi. </p>
+<p>4. justify-content: center; : Menengahkan konten elemen dalam elemen dengan ID "navbar" secara horizontal. </p>
+<p>5. font-size: 2em; : Mengatur ukuran font menjadi 2 kali ukuran font default. </p>
+<p>6. color: white; : Mengatur warna teks menjadi putih. </p>
+<p>7. font-family: Mengatur jenis font yang akan digunakan. Dalam hal ini, beberapa jenis font cadangan telah ditentukan jika jenis font utama tidak tersedia pada perangkat pengguna. </p>
+<p>8. #team: Ini adalah selector CSS yang mengarah pada elemen dengan ID "team". </p>
+<p>9. display: flex; : Mengatur tampilan elemen menjadi tampilan fleksibel. </p>
+<p>10. height: 80vh; : Mengatur tinggi elemen menjadi 80% dari tinggi viewport (vh adalah satuan tinggi dalam viewport). </p>
+<p>11. width: 100%; : Mengatur lebar elemen menjadi 100% dari lebar parentnya (mungkin lebar tampilan layar). </p>
+<p>12. .image: Ini adalah selector CSS yang mengarah pada elemen dengan class "image" dalam elemen dengan ID "team".</p>
+<p>13. display: flex; : Mengatur tampilan elemen menjadi tampilan fleksibel. </p>
+<p>14. width: 50%; : Mengatur lebar elemen menjadi 50% dari lebar parentnya. </p>
+<p>15. height: 65%; : Mengatur tinggi elemen menjadi 65% dari tinggi parentnya. </p>
+<p>16. margin-top: 4em; : Memberikan margin atas sejauh 4em. </p>
+<p>17. justify-content: center; : Menengahkan konten elemen secara horizontal. </p>
+<p>18. align-items: center; : Menengahkan konten elemen secara vertikal. </p>
+<p>19. .image img: Ini adalah selector CSS yang mengarah pada elemen gambar dalam elemen dengan class "image".</p>
+<p>20. height: 100%; : Mengatur tinggi gambar menjadi 100% dari tinggi parentnya. </p>
+<p>21. width: auto; : Mengatur lebar gambar agar dihitung otomatis untuk menjaga aspek rasio gambar. </p>
+<p>22. .kata: Ini adalah selector CSS yang mengarah pada elemen dengan class "kata" dalam elemen dengan ID "team". </p>
+<p>23. margin-top: 4em; : Memberikan margin atas sejauh 4em. </p>
+<p>24. display: flex; : Mengatur tampilan elemen menjadi tampilan fleksibel. </p>
+<p>25. flex-direction: column; : Mengatur elemen untuk ditampilkan dalam satu kolom. </p>
+<p>26. #our: Ini adalah selector CSS yang mengarah pada elemen dengan ID "our". </p>
+<p>27. height: 70%; : Mengatur tinggi elemen menjadi 70% dari tinggi viewport. </p>
+<p>28. background-color: dimgrey; : Mengatur warna latar belakang menjadi abu-abu gelap. </p>
+<p>29. width: 100%; : Mengatur lebar elemen menjadi 100% dari lebar parentnya. </p>
+<p>30. display: flex; : Mengatur tampilan elemen menjadi tampilan fleksibel. </p>
+<p>31. justify-content: center; : Menengahkan konten elemen secara horizontal. </p>
+<p>32. #ayam h1: Ini adalah selector CSS yang mengarah pada elemen &lt;h1&gt; dalam elemen dengan ID "ayam". </p>
+<p>33. display: flex; : Mengatur tampilan elemen dalam satu baris fleksibel. </p>
+<p>34. justify-content: center; : Menengahkan konten elemen secara horizontal. </p>
+<p>35. margin: 0; : Menghilangkan margin pada elemen ini. </p>
+<p>36. font-size: 3em; : Mengatur ukuran font menjadi 3 kali ukuran font default. </p>
+<p>37. color: white; : Mengatur warna teks menjadi putih. </p>
+<p>.38. kata p: Ini adalah selector CSS yang mengarah pada elemen paragraf (p) dalam elemen dengan class "kata". </p>
+<p>39. margin: 0; : Menghilangkan margin pada elemen-elemen paragraf. </p>
+<p>40. .person: Ini adalah selector CSS yang mengarah pada elemen dengan class "person" yang mungkin menggambarkan anggota tim. </p>
+<p>41. display: flex; : Mengatur tampilan elemen menjadi tampilan fleksibel. </p>
+<p>42. flex-direction: column; : Mengatur elemen agar ditampilkan dalam satu kolom. </p>
+<p>43. justify-content: center; : Menengahkan konten elemen secara horizontal dan vertikal. </p>
+<p>44. align-items: center; : Menengahkan konten elemen secara vertikal. </p>
+<p>45. margin-top: 3em; : Memberikan margin atas sejauh 3em. </p>
+<p>46. padding: 3em; : Memberikan padding sejauh 3em. </p>
+<p>47. color: white; : Mengatur warna teks menjadi putih. </p>
+<p>48. .person img: Ini adalah selector CSS yang mengarah pada elemen gambar (img) dalam elemen dengan class "person". </p>
+<p>49. height: 30vh; : Mengatur tinggi gambar menjadi 30% dari tinggi viewport. </p>
+<p>50. width: auto; : Mengatur lebar gambar agar dihitung otomatis untuk menjaga aspek rasio gambar. </p>
+<p>51. border-radius: 12px; : Memberikan sudut bulat pada gambar. </p>
+<p>52. span: Ini adalah selector CSS yang mengarah pada elemen-elemen span dalam halaman anda. </p>
+<p>53. margin: 2px; : Memberikan margin sejauh 2px. </p>
+<p>54. .overlay: Ini adalah selector CSS yang mengarah pada elemen-elemen dengan class "overlay". </p>
+<p>55. display: flex; : Mengatur tampilan elemen menjadi tampilan fleksibel. </p>
+<p>56. flex-direction: column; : Mengatur elemen agar ditampilkan dalam satu kolom. </p>
+<p>57. justify-content: start; : Mengatur konten elemen dimulai dari bagian atas. </p>
+<p>58. align-items: center; : Menengahkan konten elemen secara vertikal. </p>
+<p>59. height: 30vh; : Mengatur tinggi elemen menjadi 30% dari tinggi viewport. </p>
+<p>60. overflow: hidden; : Menghilangkan bagian konten yang melebihi batas elemen. </p>
+<p>61. .overlay span: Ini adalah selector CSS yang mengarah pada elemen-elemen span dalam elemen-elemen dengan class "overlay". </p>
+<p>62. opacity: 0; : Mengatur opasitas elemen-elemen span menjadi 0, sehingga sembunyi. </p>
+<p>63. transition: opacity 0.5s, transform 0.5s; : Mengatur transisi efek perubahan opasitas dan transformasi (perpindahan) dengan durasi 0.5 detik. </p>
+<p>64. background-color: rgba(0,0,0, 0.5); : Memberikan latar belakang berwarna hitam dengan tingkat transparansi 50%. </p>
+<p>65. font-size: 2em; : Mengatur ukuran font menjadi 2 kali ukuran font default. </p>
+<p>66. width: 100%; : Mengatur lebar elemen menjadi 100% dari lebar parentnya. </p>
+<p>67. display: flex; : Mengatur tampilan elemen menjadi tampilan fleksibel. </p>
+<p>68. justify-content: center; : Menengahkan konten elemen secara horizontal. </p>
+<p>69. color: white; : Mengatur warna teks menjadi putih. </p>
+<p>70. .overlay span.active: Ini adalah selector CSS yang mengarah pada elemen-elemen span yang memiliki class "active" dalam elemen-elemen dengan class "overlay". </p>
+<p>71. transform: translateY(-100%); : Menggeser elemen ke atas sejauh 100% dari tingginya sehingga elemen muncul (efek fade in). </p>
+<p>72. opacity: 1; : Mengatur opasitas elemen menjadi 1 (sepenuhnya terlihat). </p>
+
+
 <h3>cerita.css</h3>
 
 <p>font-family: "Work Sans", sans-serif; font-size: 1.2rem; Mengatur jenis font, ukuran font, dan beberapa properti lain untuk elemen-elemen dalam body. min-height: 100vh; mengatur tinggi minimum halaman (viewport height) agar selalu mengisi tinggi layar. margin dan padding diatur ke nol untuk menghilangkan margin dan padding default.</p>
