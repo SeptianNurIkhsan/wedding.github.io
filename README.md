@@ -297,7 +297,7 @@ Non-functional requirements (NFRs) dalam konteks website undangan pernikahan mer
    c. &lt;label class="radio-label"&gt;&lt;input type="radio" name="kehadiran" value="tidak_hadir"&gt;Tidak Hadir&lt;/label&gt;: Opsi kedua untuk memilih ketidakhadiran, dengan nilai "tidak_hadir".
 10. &lt;button&gt; Kirim Sekarang &lt;/button&gt;: Tombol untuk mengirim formulir.
 
-<h3>Konfirmasi Kehadiranhtml</h3>
+<h3>Konfirmasi Kehadiran.html</h3>
 
 1. &lt;!DOCTYPE html&gt;: Menandakan bahwa dokumen adalah dokumen HTML.
 2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.
