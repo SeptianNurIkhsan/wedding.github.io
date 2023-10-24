@@ -152,7 +152,7 @@ Deskripsi Use Case
 -Admin : Mengunggah jadwal,Mengunggah Maps,Melihat status konfirmasi kehadiran.
 
 ## Nama Use Case 2
-![alt text]
+![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/USE%20CASE.jpg)
 
 Untuk penjelasan pada flowchart yang akan dilakukan adalah pertama tama pastinya terdapat start kemudian anda akan diminta untuk menekan link yang akan mengarahkan kepada website kami. Di Dalam website ini terdapat cover dan juga link untuk melihat undangan .jika anda ingin melihat undangan maka anda bisa menekan link “lihat undangan”kemudian anda akan diarahkan ke undangan yang berisi nama alamat acara tersebut serta tanggal acara.setelah anda melihat denah acara anda dapat melihat galeri galeri acara tersebut.kemudian anda bisa konfirmasi kehadiran anda melalui website tersebut.Selesai.
 
