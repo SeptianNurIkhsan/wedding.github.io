@@ -337,6 +337,29 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 <p>18. &lt;p&gt;...: Ini adalah elemen paragraf (p) yang berisi cerita tentang pertemuan Kaesang dan Erina.</p>
 
 <H3>Info.html</H3>
+<p>1. &lt;!DOCTYPE html&gt; : Deklarasi tipe dokumen HTML yang menunjukkan bahwa ini adalah dokumen HTML.</p>
+<p>2. &lt;html lang="en"&gt; : Elemen awal yang menandakan awal dari dokumen HTML. lang="en" menunjukkan bahwa bahasa yang digunakan dalam dokumen adalah bahasa Inggris. </p>
+<p>3. &lt;head&gt; : Bagian kepala dari dokumen HTML yang berisi metadata dan tautan ke berkas eksternal. </p>
+<p>4. &lt;meta charset="UTF-8"&gt; : Menentukan karakter set dokumen sebagai UTF-8, yang mendukung karakter internasional. </p>
+<p>5. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; : Mengatur tampilan halaman agar sesuai dengan lebar perangkat dan tingkat perbesaran awalnya. </p>
+<p>6. &lt;link rel="stylesheet" href="tentang.css" /&gt; : Menghubungkan halaman dengan berkas CSS eksternal bernama "tentang.css" untuk mengatur tampilan halaman. </p>
+<p>7. &lt;title&gt;Tentang Kami&lt;/title&gt; : Menetapkan judul halaman web yang akan ditampilkan di tab peramban pengguna. </p>
+<p>8. &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"&gt; : Menghubungkan halaman dengan berkas CSS dari Font Awesome untuk ikon. </p>
+<p>9. &lt;body&gt;: Elemen yang menampung semua elemen yang akan ditampilkan di halaman web. </p>
+<p>10. &lt;section id="navbar"&gt;: Bagian dari halaman yang memiliki atribut id "navbar", biasanya digunakan untuk membuat menu navigasi. </p>
+<p>11. &lt;h1> Tentang Kami &lt;/h1&gt; : Teks judul di dalam bagian "navbar".</p>
+<p>12. &lt;section id="team"&gt; : Bagian yang memiliki atribut id "team", digunakan untuk mengelompokkan informasi tentang tim. </p>
+<p>13. &lt;div class="image"&gt; : Elemen div dengan class "image" yang berisi gambar latar belakang. </p>
+<p>14. &lt;img src="bgtentangkami.jpg"&gt; : Gambar latar belakang. </p>
+<p>15. &lt;div class="kata"&gt; : Elemen div dengan class "kata" yang berisi paragraf-paragraf yang menjelaskan tentang tim. </p>
+<p>16. &lt;section id="ayam"&gt; : Bagian dengan atribut id "ayam" yang digunakan untuk membuat judul "OUR TEAM".</p>
+<p>17. &lt;section id="our"&gt; : Bagian dengan atribut id "our" yang digunakan untuk mengelompokkan informasi tentang anggota tim. </p>
+<p>18. Setiap anggota tim memiliki elemen &lt;div class="person"&gt; yang berisi informasi mereka</p>
+<p>19. Gambar profil (dalam elemen &lt;img&gt;). </p>
+<p>20. Nama anggota tim (dalam elemen &lt;span&gt;). </p>
+<p>21. Informasi kontak seperti Instagram, nomor telepon, dan alamat email (dalam elemen &lt;span&gt;). </p>
+<p>22. Kutipan atau moto pribadi (dalam elemen &lt;p&gt;). </p>
+<p>23. &lt;script src="index.js"&gt; : Ini menghubungkan halaman dengan berkas JavaScript eksternal bernama "index.js". Berkas ini mungkin digunakan untuk menambahkan perilaku interaktif ke dalam halaman web. </p>
 
 
  
