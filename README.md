@@ -105,22 +105,20 @@ Tabel 1 Karakteristik Pengguna
 | Pembuat Acara | Memilih tempat pernikahan | Melihat lihat gambar|Mengisi data  | 
 |  |  Mengisi data tempat | Melihat konfirmasi kehadiran|  |
 | Admin |membuat website |Memberikan akses kepada pembuat acara untuk menyimpan data kehadiran |Menyediakan kebutuhan fungsional|
-| Admin |memasukkan data yang diminta oleh pembuat acara |menyimpan gambar dan merubah image |menyediakan fasilitas|
+|  |memasukkan data yang diminta oleh pembuat acara |menyimpan gambar dan merubah image |menyediakan fasilitas|
 
 
 ## Lingkungan Operasi 
 Website undangan pernikahan ini dapat diakses melalui berbagai sistem operasi di bawah ini.
 
-Spesifikasi
-Jenis
-Sistem Operasi
-minimal Microsoft Windows 10, Mac OS catalina, Android 5.0 ke atas, IOS 11 ke atas
-Jaringan
-Terhubung dengan jaringan internet
-Perangkat Keras
-Laptop, Smartphone
-API
-Google Maps API
+
+| Spesifikasi |Jenis| 
+| -------- | -------- | 
+| Sistem Operasi | minimal Microsoft Windows 10, Mac OS catalina, Android 5.0 ke atas, IOS 11 ke atas| 
+|  | Menggunakan browser 9.0 atau chrome dengan versi 4.0| 
+| Jaringan | Terhubung dengan jaringan internet| 
+| Perangkat Keras | Laptop, Smartphone| 
+| API | Google Maps API| 
 
 
 ## Batasan Desain dan Implementasi 
