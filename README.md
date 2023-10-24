@@ -129,7 +129,15 @@ Browser Web: Aplikasi ini bisa diakses melalui berbagai browser web populer sepe
 
 # Kebutuhan Antarmuka Eksternal
 ## User Interfaces 
-<Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
+1. Tombol "Lihat Undangan" harus berada pada halaman awal website.
+2. Halaman baru bisa discroll ketika pengguna sudah menekan tombol "Lihat Undangan".
+3. Terdapat foto dan video dari mempelai sehingga pengguna dapat melihatnya.
+4. Website memberikan denah lokasi agar mempermudah pengguna yang akan hadir.
+5. RSVP atau konfirmasi kehadiran akan memberitahu pihak penyelenggara terkait siapa saja yang hadir.
+6. Penggunaan warna yang nyaman untuk mata dan disesuaikan dengan tema pernikahan.
+7. Navbar atau navigasi harus tersedia dan sesuai dengan kebutuhan.
+8. Semua tombol harus memberikan umpan balik ke pengguna setiap ditekan.
+9. Terdapat bagian "Tentang kami" yang memberikan informasi kepada pengguna tentang siapa saja yang terlibat dalam pembuatan website.
 
 ## Hardware Interface
 Pembuatan website dikhususkan kepada seluruh tamu undangan . Untuk menjangkau website ini tidak dibutuhkan spesifikasi yg tinggi dikarenakan pada umumnya penerima yang akan menerima surat undangan ini  sudah memiliki perangkat dengan hardware yang lebih dari cukup untuk menjangkau atau membuka website ini.
@@ -141,20 +149,21 @@ Antarmuka  perangkat lunak dari undangan pernikahan digital berisi kan kedua nam
 <Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
 
 # Functional Requirement
-1. Pengguna harus dapat membuka undangan
-2. Semua tombol harus dapat berfungsi dan menampilkan yang ingin dilihat pengguna
-3. Website harus mampu menerima dan menyimpan jawaban pengguna
-4. Notifikasi harus ditampilkan setelah pengguna mengisi jawaban
+1. Pengguna harus dapat membuka undangan.
+2. Semua tombol harus dapat berfungsi dan menampilkan yang ingin dilihat pengguna.
+3. Website harus mampu menerima dan menyimpan jawaban pengguna.
+4. Notifikasi harus ditampilkan setelah pengguna mengisi jawaban.
+5. Backsound harus aktif ketika pengguna sudah membuka undangan.
 
 ## Use Case Diagram
-## Nama Use Case 1 
+## Use Case 1 
 Deskripsi Use Case
 	Dalam Use case diagram diatas menjelaskan 
--User : Dapat membuka Link,melihat undangan,melihat jadwal acara,melihat maps,melihat galeri,Konfirmasi kehadiran.
+-User : Dapat membuka link, melihat undangan, melihat jadwal acara, melihat maps, melihat galeri, memutar video, konfirmasi kehadiran.
 
--Admin : Mengunggah jadwal,Mengunggah Maps,Melihat status konfirmasi kehadiran.
+-Admin : Mengunggah jadwal, Mengunggah Maps, Melihat status konfirmasi kehadiran.
 
-## Nama Use Case 2
+## Use Case 2
 ![alt text](https://github.com/SeptianNurIkhsan/wedding.github.io/blob/main/USE%20CASE.jpg)
 
 Untuk penjelasan pada flowchart yang akan dilakukan adalah pertama tama pastinya terdapat start kemudian anda akan diminta untuk menekan link yang akan mengarahkan kepada website kami. Di Dalam website ini terdapat cover dan juga link untuk melihat undangan .jika anda ingin melihat undangan maka anda bisa menekan link “lihat undangan”kemudian anda akan diarahkan ke undangan yang berisi nama alamat acara tersebut serta tanggal acara.setelah anda melihat denah acara anda dapat melihat galeri galeri acara tersebut.kemudian anda bisa konfirmasi kehadiran anda melalui website tersebut.Selesai.
