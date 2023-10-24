@@ -279,41 +279,41 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 
 
 <h3>Kehadiran.html</h3>
-1. Mendeklarasikan &lt;!DOCTYPE html&gt;: menandakan bahwa dokumen adalah dokumen HTML.
-2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.
-3. &lt;head&gt;: Bagian kepala dari dokumen HTML yang berisi informasi meta dan judul.
+<p>1. Mendeklarasikan &lt;!DOCTYPE html&gt;: menandakan bahwa dokumen adalah dokumen HTML.</p>
+<p>2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.</p>
+<p>3. &lt;head&gt;: Bagian kepala dari dokumen HTML yang berisi informasi meta dan judul.
    a. &lt;meta charset="UTF-8"&gt;: Menentukan bahwa dokumen menggunakan karakter set UTF-8, yang mencakup hampir semua karakter dari semua skrip yang saat ini ditulis dan yang pernah ada.
    b. &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: Menentukan bagaimana konten akan muncul pada perangkat berbasis web dan mobile.
    c. &lt;title&gt;Formulir Kehadiran&lt;/title&gt;: Menentukan judul halaman web.
-   d. &lt;link rel="stylesheet" href="cerita.css"&gt;t: Menghubungkan halaman dengan file stylesheet "cerita.css" untuk mengatur tata letak dan gaya.
-4. &lt;body&gt;: Bagian tubuh dokumen HTML yang berisi konten yang akan ditampilkan di halaman web.
-5. &lt;div class="container"&gt;: Membuat div dengan kelas "container" untuk mengelompokkan elemen-elemen terkait bersama.
-6. &lt;h2&gt;Formulir Kehadiran&lt;/h2&gt;: Menampilkan judul "Formulir Kehadiran" di halaman web.
-7. &lt;form action="Konfirmasi Kehadiran.html" method="post"&gt;: Membuat formulir yang akan mengirimkan data ke halaman "Konfirmasi Kehadiran.html" menggunakan metode HTTP POST.
-8. &lt;div class="form-group"&gt;: Membuat div dengan kelas "form-group" untuk mengelompokkan elemen formulir bersama.
+   d. &lt;link rel="stylesheet" href="cerita.css"&gt;t: Menghubungkan halaman dengan file stylesheet "cerita.css" untuk mengatur tata letak dan gaya.</p>
+<p>4. &lt;body&gt;: Bagian tubuh dokumen HTML yang berisi konten yang akan ditampilkan di halaman web.</p>
+<p>5. &lt;div class="container"&gt;: Membuat div dengan kelas "container" untuk mengelompokkan elemen-elemen terkait bersama.</p>
+<p>6. &lt;h2&gt;Formulir Kehadiran&lt;/h2&gt;: Menampilkan judul "Formulir Kehadiran" di halaman web.</p>
+<p>7. &lt;form action="Konfirmasi Kehadiran.html" method="post"&gt;: Membuat formulir yang akan mengirimkan data ke halaman "Konfirmasi Kehadiran.html" menggunakan metode HTTP POST.
+<p>8. &lt;div class="form-group"&gt;: Membuat div dengan kelas "form-group" untuk mengelompokkan elemen formulir bersama.
    a. &lt;label for="nama"&gt;Nama:&lt;/label&gt;: Label untuk input nama.
-   b.&lt;input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda" required&gt;: Input teks yang memungkinkan pengguna memasukkan nama mereka, dengan atribut required yang menandakan bahwa bidang ini harus diisi sebelum formulir dikirim.
-9. &lt;div class="form-group"&gt;: Membuat div dengan kelas "form-group" untuk mengelompokkan elemen formulir bersama.
+   b.&lt;input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda" required&gt;: Input teks yang memungkinkan pengguna memasukkan nama mereka, dengan atribut required yang menandakan bahwa bidang ini harus diisi sebelum formulir dikirim.</p>
+<p>9. &lt;div class="form-group"&gt;: Membuat div dengan kelas "form-group" untuk mengelompokkan elemen formulir bersama.
    a. &lt;label&gt;Pilih Kehadiran:&lt;/label&gt;: Label untuk pilihan kehadiran.
    b. &lt;label class="radio-label"&gt;&lt;input type="radio" name="kehadiran" value="hadir"&gt;Hadir&lt;/label&gt;: Opsi pertama untuk memilih kehadiran, dengan nilai "hadir".
-   c. &lt;label class="radio-label"&gt;&lt;input type="radio" name="kehadiran" value="tidak_hadir"&gt;Tidak Hadir&lt;/label&gt;: Opsi kedua untuk memilih ketidakhadiran, dengan nilai "tidak_hadir".
-10. &lt;button&gt; Kirim Sekarang &lt;/button&gt;: Tombol untuk mengirim formulir.
+   c. &lt;label class="radio-label"&gt;&lt;input type="radio" name="kehadiran" value="tidak_hadir"&gt;Tidak Hadir&lt;/label&gt;: Opsi kedua untuk memilih ketidakhadiran, dengan nilai "tidak_hadir".</p>
+<p>10. &lt;button&gt; Kirim Sekarang &lt;/button&gt;: Tombol untuk mengirim formulir.</p>
 
 <h3>Konfirmasi Kehadiran.html</h3>
 
-1. &lt;!DOCTYPE html&gt;: Menandakan bahwa dokumen adalah dokumen HTML.
-2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.
-3. &lt;head&gt;: Bagian kepala dari dokumen HTML yang berisi informasi meta dan judul.
+<p>1. &lt;!DOCTYPE html&gt;: Menandakan bahwa dokumen adalah dokumen HTML.</p>
+<p>2. &lt;html lang="en"&gt;: Menandakan bahwa bahasa dokumen adalah bahasa Inggris.</p>
+<p>3. &lt;head&gt;: Bagian kepala dari dokumen HTML yang berisi informasi meta dan judul.</p>
    a. &lt;meta charset="UTF-8"&gt;: Menentukan bahwa dokumen menggunakan karakter set UTF-8.
    b. &lt;meta name="viewport" content="width=&lt;device-width&gt;, initial-scale=1.0"&gt;: Terdapat kesalahan pada pengaturan viewport, karena harusnya &lt;device-width&gt; diganti dengan device-width tanpa tanda kurung sudut. Ini adalah konfigurasi viewport yang umum digunakan untuk mengatur tampilan halaman web di perangkat berbasis web dan mobile.
    c. &lt;title&gt;Konfirmasi&lt;/title&gt;: Menentukan judul halaman web.
-   d. &lt;link rel="stylesheet" href="makasih-1.css"&gt;: Menghubungkan halaman dengan file stylesheet "makasih-1.css" untuk mengatur tata letak dan gaya.
-4. &lt;body&gt;: Bagian tubuh dokumen HTML yang berisi konten yang akan ditampilkan di halaman web.
-5. &lt;section id="terimakasih"&gt;: Membuat sebuah bagian dengan ID "terimakasih" untuk mengelompokkan konten terkait bersama.
+   d. &lt;link rel="stylesheet" href="makasih-1.css"&gt;: Menghubungkan halaman dengan file stylesheet "makasih-1.css" untuk mengatur tata letak dan gaya.</p>
+<p>4. &lt;body&gt;: Bagian tubuh dokumen HTML yang berisi konten yang akan ditampilkan di halaman web.</p>
+<p>5. &lt;section id="terimakasih"&gt;: Membuat sebuah bagian dengan ID "terimakasih" untuk mengelompokkan konten terkait bersama.
    a. &lt;div class="imbal"&gt;: Membuat div dengan kelas "imbal" untuk mengelompokkan pesan ucapan terima kasih bersama.
    b. &lt;h1&gt;&lt;b&gt;Terima Kasih&lt;/b&gt;&lt;/h1&gt;: Menampilkan judul besar "Terima Kasih" dengan teks yang dicetak tebal (bold).
-   c. Beberapa paragraf &lt;p&gt; yang berisi pesan ucapan terima kasih yang ditampilkan kepada pengguna. Pesan ini berisi penghargaan dan rasa terima kasih atas kontribusi dan dukungan pengguna.
-6. &lt;a class="tekan" href="index.html"&gt;Kembali&lt;/a&gt;: Membuat tautan (link) dengan teks "Kembali" yang mengarahkan pengguna kembali ke halaman "index.html" ketika diklik.
+   c. Beberapa paragraf &lt;p&gt; yang berisi pesan ucapan terima kasih yang ditampilkan kepada pengguna. Pesan ini berisi penghargaan dan rasa terima kasih atas kontribusi dan dukungan pengguna.</p>
+<p>6. &lt;a class="tekan" href="index.html"&gt;Kembali&lt;/a&gt;: Membuat tautan (link) dengan teks "Kembali" yang mengarahkan pengguna kembali ke halaman "index.html" ketika diklik.</p>
 
 <h3>Cerita.html</h3>
 
@@ -377,6 +377,23 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 <p>12. Semua elemen dengan class "dot" yang memiliki class "active" kehilangan class "active", yang digunakan untuk menunjukkan slide mana yang aktif.</p>
 <p>13. Kemudian, slide yang sesuai dengan slideIndex (setelah perhitungan di atas) diubah menjadi display: block, sehingga hanya satu slide yang ditampilkan pada satu waktu.</p>
 <p>14. Thumbnail yang sesuai dengan slideIndex juga diberikan class "active" untuk menandai slide yang sedang ditampilkan.</p>
+
+<H3>Index.js</H3>
+
+<p>1. function musik() Fungsi ini digunakan untuk mengontrol pemutaran audio di dalam elemen dengan id "musik" pada halaman web.</p>
+<p>  a. Pertama, kode mengambil elemen dengan id "musik" menggunakan document.querySelector("#musik") dan menyimpannya dalam variabel msc.</p>
+<p>  b. Kemudian, kode menggunakan operator ternary (?:) untuk memeriksa apakah audio dalam elemen msc sudah dimute (muted) atau tidak.</p>
+<p>  c. Jika audio tidak dimute, maka fungsi ini akan mengatur atribut muted dari elemen audio tersebut menjadi true, sehingga audio dimute.</p>
+<p>  d. Jika audio sudah dalam keadaan dimute, maka fungsi ini akan mengatur atribut muted menjadi false, sehingga audio tidak dimute.</p>
+<p>2. function galeri(gmbr) Fungsi ini digunakan untuk mengganti gambar yang sedang ditampilkan dalam galeri gambar.</p>
+<p>  a. Pertama, fungsi ini mengambil semua elemen gambar dalam elemen dengan kelas "besar" menggunakan document.querySelectorAll(".besar img") dan menyimpannya dalam variabel image.</p>
+<p>  b. Kemudian, kode mencari elemen yang memiliki kelas "active" dan menghapus kelas "active" tersebut dengan actv.classList.remove("active").</p>
+<p>  c. Selanjutnya, elemen gambar yang sesuai dengan indeks gmbr-1 (indeks dalam array dimulai dari 0) diberikan kelas "active" dengan image[gmbr-1].classList.add("active").</p>
+<p>3. function profileover(element) Fungsi ini digunakan untuk menambahkan kelas "active" pada elemen yang berisi teks nama di atas profil pengguna saat mouse berada di atas elemen tersebut.</p>
+<p>  a. Fungsi ini menerima satu argumen element, yang merupakan elemen yang sedang diarahkan oleh kursor mouse.</p>
+<p>  b. Kode ini menggunakan element.querySelector("span") untuk mencari elemen anak (child) dengan tag "span" di dalam elemen element dan kemudian menambahkan kelas "active" pada elemen tersebut.</p>
+<p>4. function profilleave(element) Fungsi ini digunakan untuk menghapus kelas "active" dari elemen yang berisi teks nama di atas profil pengguna saat mouse meninggalkan elemen tersebut.</p>
+
 
 
 
