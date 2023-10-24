@@ -258,9 +258,21 @@ Non-functional requirements (NFRs) dalam konteks website undangan pernikahan mer
 14.  &lt;li onclick="musik()"&gt; adalah element list yang memiliki atribut "onclick"  Ini menunjukkan bahwa saat elemen tersebut diklik (onclick), sebuah fungsi JavaScript yang disebut "musik()"
 15. &lt;nav id="toggle"&gt; memasukkan navigasi dengan nama "toggle" sebagai identifikasi untuk merubah tampilan pada css
 16. &lt;section id="akad"&gt; &lt;div class="akadnikah"&gt; Kemudian memasukkan elemen "section" dengan nama akad yang didalamnya terdapat elemen "div" yang memiliki atribut class dengan nama akadnikah.
-17. didalam &lt;div class="akadnikah"&gt; terdapat   &lt;h1&gt;Kaesang & Erina&lt;/h1&gt; sebagai isi kemudian,&lt;a class="lihat" href="#home" onclick="enableScroll()&gt;"Lihat Undangan</a> terdapat elemen "anchor" untuk membuat link dengan atribut "class"dengan nama 
+17. didalam &lt;div class="akadnikah"&gt; terdapat   &lt;h1&gt;Kaesang & Erina&lt;/h1&gt; sebagai isi kemudian,&lt;a class="lihat" href="#home" onclick="enableScroll()&gt;"Lihat Undangan" terdapat elemen "anchor" untuk membuat link dengan atribut "class"dengan nama  "lihat undangan".onclick="enableScroll()": Ini adalah atribut onclick, yang digunakan untuk menentukan kode JavaScript yang akan dijalankan
+18. &lt;section  style="display:none;"&gt; kemudian memasukkan element "section" yang memiliki atribut "style" yang diatur "display:none" ini bertujuan untuk menyembunyikan atau tidak menampilkan elemen tersebut pada halaman web.
+19. &lt;audio id="musik" controls autoplay&gt; Memasukkan elemen audio dengan atribut "id" kemudian memanggil file mp3 yang sudah kita satukan dalam file yang sama.
+20. &lt;source src="beautiful.mp3" type="audio/mpeg"&gt; memasukkan elemen "source" dengan atribut src untuk memanggil file audio yang sudah kita siapkan . Kemudian memasukkan atribut "type" dengan jenis"audio/mpeg"
+21. &lt;section id="ungkapan"&gt; kemudian memasukkan elemen "section" dengan atribut "id" dengan nilai "Ungkapan"
+22. &lt;p&gt;Dan diantara tanda-tanda &lt;b&gt;(Kebesaran)&lt;/b&gt;- Nya&lt;/p&gt; elemen "p" digunakan untuk menulis paragraf kemudian elemen"b" untuk merubah teks menjadi bold"
+23. &lt;section id="mempelai"&gt; adalah elemen "section" dengan atribut "id" dengan nilai"mempelai" yang berisi semua tentang mepelai pria dan wanita.
+24. &lt;span&gt; digunakan untuk mengelompokkan atau memformat bagian teks atau konten dalam dokumen HTML
+25. &lt;section id="cerita"&gt;adalah elemen "section" dengan atribut "id" dengan nilai"Cerita"
+26. &lt;a class="button" href="Cerita.html"g &gt; Cerita kami &lt;/a &gt;
+ &lt;H3 &gt;Index.Kehadiran</H3 &gt; menggunakan elemen "anchor" yang digunakan untuk membuat link yang mengarah kepada "cerita.html"
+27.   &gt;img class="active" src="foto-prewed-1.jpg" alt="1"&gt; digunakan untuk menampilkan gambar. kemudian memiliki atribut"class" dengan nilai "active" kemudian atribut"src" digunakan untuk  menentukan sumber gambar yang akan ditampilkan oleh elemen gambar.
+28.   &gt;img onmouseover="galeri(1)" src="foto-prewed-1.jpg" alt="1"&gt; 
+29.  
 
- 
 
 
 
