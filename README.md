@@ -271,7 +271,14 @@ Non-functional requirements (NFRs) dalam konteks website undangan pernikahan mer
  &lt;H3 &gt;Index.Kehadiran</H3 &gt; menggunakan elemen "anchor" yang digunakan untuk membuat link yang mengarah kepada "cerita.html"
 27.   &gt;img class="active" src="foto-prewed-1.jpg" alt="1"&gt; digunakan untuk menampilkan gambar. kemudian memiliki atribut"class" dengan nilai "active" kemudian atribut"src" digunakan untuk  menentukan sumber gambar yang akan ditampilkan oleh elemen gambar.
 28.   &gt;img onmouseover="galeri(1)" src="foto-prewed-1.jpg" alt="1"&gt; 
+
 29.  
+
+
+<h3>.Kehadiran.html</h3>
+
+<h3>html</h3>
+<h3>html</h3>
 
 
 
