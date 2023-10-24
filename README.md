@@ -379,6 +379,41 @@ menampilkan halaman web atau konten lain di dalam halaman web saat ini. Didalam 
 <p>22. Kutipan atau moto pribadi (dalam elemen &lt;p&gt;). </p>
 <p>23. &lt;script src="index.js"&gt; : Ini menghubungkan halaman dengan berkas JavaScript eksternal bernama "index.js". Berkas ini mungkin digunakan untuk menambahkan perilaku interaktif ke dalam halaman web. </p>
 
+# 6.2 CSS
+<h3>makasih.css</h3>
+
+1. "#terimakasih {" merupakan selector CSS yang merujuk kedalam id "Terimakasih" didalam id ini terdapat "background-image: url(bgkayu.jpg);" yang mengatur background menjadi foto tersebut. "background-size: cover;" digunakan untuk memilih ukuran background."justify-content: center;"berguna untuk membuat text menjadi ke tengah " display: flex;" digunakan untuk membuat dispalay menjadi flex " height: 100vh;" berarti memiliki tinggi 100 vh.
+2. ".imbal {" merupakan selctor css yang merujuk pada class "imbal" terdapat "margin-top: 1em;" yang membuat jarak dengan tepi atas 1em "
+background-color: azure;"kemudian background color digunakan untuk memilih warna background "opacity: 65%;"dengan opacity 65% "text-align: center;" membuat text menjadi ketengah."transform: translateY(15%);membuat text yang semula di tengah menjadi lebih condong terhadap sumbu y." border-radius: 12%;" membuat pinggiran item menjadi lebih halus.
+3. ".imbal h1 {" merupakan selector CSS yang merujuk kedalam   tekt "h1" yang terdapat dalam class "imbal"."font-size: 44px;" memiliki ukuran 44 px .'font-family:sans-serif"digunakan untuk memiilih jenis font yang kita mau
+4." .tekan { "merupakan selector CSS yang merujuk kedalam class "Tekan" didalam selector ini terdapat " background-color:azure;" digunakan untuk mengatur warna background" "opacity: 70%;" diguanakan untuk mengatur tingkat opacity. "border: none;" digunakan untuk mengatur border .border=none berarti emnghilangkan border. "padding: 15px 20px;" memiliki padding 15 px dan 20px."text-decoration: none;"digunakan untuk menghilangkan baris pada bawah "text.cursor: pointer;"memberikan petunjuk visual kepada pengguna bahwa elemen tersebuut adalah suatu tautan "   text-align: center;" membuat text menjadi ketengah ."margin-top: 6em;"membuat text menjadi memiliki jarak ke atas sebesar 6 em.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 6.3 Java Script
 <H3>slideIndex.js</H3>
 <p>1. let slideIndex = 1; : Ini adalah deklarasi variabel slideIndex yang digunakan untuk melacak slide mana yang sedang ditampilkan. Nilai awalnya diatur ke 1, yang berarti slide pertama akan ditampilkan saat halaman dimuat.</p>
 <p>2. showSlides(slideIndex); : Ketika halaman dimuat, ini memanggil fungsi showSlides() dengan nilai slideIndex awal (yaitu 1) untuk menampilkan slide pertama.</p>
