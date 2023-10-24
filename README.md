@@ -158,6 +158,17 @@ Untuk penjelasan pada flowchart yang akan dilakukan adalah pertama tama pastinya
 
 
 ## Non Functional Requirements
+Non-functional requirements (NFRs) dalam konteks website undangan pernikahan merujuk pada persyaratan yang tidak terkait langsung dengan fungsi utama atau perilaku perangkat lunak, tetapi memengaruhi kualitas, kinerja, dan pengalaman pengguna dari website tersebut
+
+| ID | Parameter | Kebutuhan |
+| -------- | -------- | -------- |
+| 1 | Kinerja | Website harus merespons dengan cepat dan memuat halaman dalam waktu yang wajar,termasuk konten dan gambar.Website harus mampu menanganilalu lintas yang meningkat saat tamu undangan mengakses atau merespons undangan. | 
+| 2 | Keamanan |  Website harus mematuhi standar privasi data dan melindungi informasi pribadi tamu undangan.| 
+| 3 | Ketersediaan|  Website harus tersedia sepanjang waktu dengan sedikit atau tanpa waktu jeda. Ini penting agar tamu undangan dapat mengakses informasi pernikahan kapan pun mereka mau.| 
+| 4 | Kompatibilitas dan Responsif |  Website harus berfungsi dengan baik di berbagai jenis peramban web yang berbeda, seperti Chrome, Firefox, Safari, dan Internet Explorer.|
+| 5 | Desain Estetika | Website harus dirancang dengan baik dan memiliki estetika yang sesuai dengan tema pernikahan untuk memberikan pengalaman yang menarik bagi pengguna..|
+| 6 | Ketepatan Waktu:a | Informasi yang ditampilkan di website, seperti tanggal dan lokasi pernikahan, harus selalu tepat dan mutakhir.|
+
 
 
 
