@@ -218,16 +218,16 @@ body::before {
   padding: 20px;
   border-radius: 125px 0 0 0;
 }
-
 #cerita {
   font-family: "Work Sans", sans-serif;
-  background-image: url(bgceritaa.jpg);
-  background-size: cover;
   min-height: 100vh;
   padding: 2em;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  bottom: 0;
+  left: 8%;
+  transform: translateY(-8%);
 }
 
 .button {
@@ -244,6 +244,8 @@ body::before {
   cursor: pointer;
   border-radius: 30px;
 }
+
+
 #galeri {
   background-image: url(bgceritaa.jpg);
   background-size: cover;
@@ -483,6 +485,10 @@ body {
 #ucapan .pencet {
   display: block;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #ucapan form {
